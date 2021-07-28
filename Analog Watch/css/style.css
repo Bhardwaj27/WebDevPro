@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body div.container{
+    position: relative;
+}
+
+body div.container div.watch{
+    border: 5px solid black;
+    width:fit-content;
+    margin: 10px auto;
+}
+
+body div.container div.hands{
+    border-radius: 2px;
+    border: solid black;
+    transform-origin: bottom;
+    position: absolute;
+    width: 1px;
+}
+
+body div.container div#hours{
+    height: 50px;
+    top: 31.8%;
+    left: 49.56%;
+}
+
+body div.container div#minutes{
+    height: 65px;
+    top: 26.3%;
+    left: 49.85%;
+}
+
+body div.container div#seconds{
+    height: 85px;
+    top: 20%;
+    left: 49.85%;
+}
+
+body span{
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+

@@ -1,0 +1,2337 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+@media (min-width: 992px){
+    /*
+    Body :: Styling h1 Heading
+    */
+    body h1{
+        text-align: center;
+        font-family: cursive;
+        border-top: 3px solid rgb(50, 110, 110);
+    }
+    /*
+        Body Background Image :: 
+        On which Navbar and about with
+        enroll button is placed
+    */
+    body div.background{
+        background-image: url('Images&Videos/carousel 1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 550px;
+        position: relative;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Placing Navbar :: Flex and 
+        aligining contect
+    */
+    body div.background nav div.navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Left side :: Content :: 
+        Logo Name and styling
+    */
+    body div.background nav div.navbar div.logo div{
+        padding: 20px 20px 0 20px;
+        height: 80px;
+        font-size: 50px;
+        font-style: italic;
+        font-weight: bold;
+        color: whitesmoke;
+        background-image: linear-gradient(to left, rgba(168, 15, 15, 1), rgb(12, 12, 12));
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Aligning content side by side
+    */
+    body div.background nav div.navbar div.services ul{
+        display: flex;
+        list-style: none;
+        margin-top: 10px;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Content :: Styling 
+    */
+    body div.background nav div.navbar div.services ul.items li a{
+        text-decoration: none;
+        color: black;
+        margin-right: 10px;
+        padding: 5px 12px;
+        font-size: 25px;
+        text-align: center;
+        color: whitesmoke;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Content :: Hover 
+    */
+    body div.background nav div.navbar div.services ul.items li a:hover{
+        background-color: black;
+        text-align: center;
+        color: pink;
+        font-size: 25px;
+        border-radius: 20px;
+    }
+    /*
+        Body Background Image :: Enroll Button
+    */
+    body div.background div.btnknow button{
+        position: absolute;
+        top: 65%;
+        left: 45%;
+        font-size: 25px;
+        padding: 5px 10px;
+        background-image: linear-gradient(to left, rgba(168, 15, 15, 1), rgb(12, 12, 12));
+        border: 0px;
+        border-radius: 8px;
+        color: whitesmoke;
+        font-family: cursive;
+        cursor: pointer;
+    }
+    /*
+        Body Background Image :: About
+    */
+    body div.background div.about p{
+        position: absolute;
+        top: 35%;
+        margin: 0 120px;
+        font-size: 25px;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: 2nd part :: 
+                            Adding video Background
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.video1 div.backgroundVideo{
+        background-color: black;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: -35px;
+        color: whitesmoke;
+        position: relative;
+        height: 450px;
+    }
+    /*
+        Body :: 2nd part :: 
+        Placing video on ::  
+        video Background
+    */
+    body div.video1 div.backgroundVideo video{
+        width: 80%;
+        margin-top: 68px;
+        margin-left: 100px;
+        cursor: pointer;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: 3rd part :: Cards ::
+                            Services Offered Section ::  
+                            Background
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.cards{
+        background-image: linear-gradient(to right, rgb(7, 7, 17), rgb(54, 131, 131));
+        height: 400px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 1
+    */
+    body div.cards div#card1{
+        width: 25%;
+        height: 300px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(3deg);
+        border: 1px solid black;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 1 Image
+    */
+    body div.cards div#card1 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 2
+    */
+    body div.cards div#card2{
+        width: 25%;
+        height: 300px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(-2deg);
+        border: 1px solid black;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 2 Image
+    */
+    body div.cards div#card2 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 3
+    */
+    body div.cards div#car3{
+        width: 25%;
+        height: 300px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(5deg);
+        border: 1px solid black;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 3 Image
+    */
+    body div.cards div#car3 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card About
+    */
+    body div.cards div.cardsItem div.cardAbout{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                        Body :: 4th part ::
+                        Member Benefits Offered Section ::  
+                        aligning side by side
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.facilities{
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 3px solid rgb(50, 110, 110);
+    }
+    /*
+        Body :: 4th part ::
+        Member Benefits Offered Section ::  
+        Styling Benefit Image
+    */
+    body div.facilities img{
+        height: 100px;
+        width: 150px;
+        display: block;
+        margin: 15px auto;
+    }
+    /*
+        Body :: 4th part ::
+        Member Benefits Offered Section ::  
+        Styling Benefit Heading
+    */
+    body div.facilities div.facilitiesText{
+        font-size: 20px;
+        font-family: cursive;
+        text-align: center;
+        font-weight: bolder;
+        margin-bottom: 15px;
+        margin-right: 5px;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                        Body :: 5th part :: Image container :: 
+                        Adding Background and Styling for
+                        Image slideshow
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.imageContainer{
+        background-image: linear-gradient(to right, rgb(134, 29, 29), rgb(14, 9, 9));
+        height: 500px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing
+    */
+    body div.imageContainer div.imageSlideShowContainer{
+        height: 430px;
+        width: 85%;
+        top: 8%;
+        left: 7%;
+        position: absolute;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Placing Image and sizing it
+    */
+    body div.imageContainer div.imageSlideShowContainer img{
+        left: 3%;
+        top: 7%;
+        width: 95%; 
+        height: 400px;
+        position: relative;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Aligning Left Right button And Image 
+        Selction Circle Side By Side
+    */
+    body div.imageContainer div.imageSlideShowContainer div.buttCirc{
+        display: flex; 
+        position: absolute;
+        top: 83%;
+        left: 40%;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Styling Image Left Right Button
+    */
+    body div.imageContainer div.imageSlideShowContainer div.butt{
+        font-size: 3rem;
+        color: lightcyan;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Adding Hover effect :: Left Right Button
+    */
+    body div.imageContainer div.imageSlideShowContainer div.butt:hover{
+        color: pink;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Styling Image Selection Circle
+    */
+    body div.imageContainer div.imageSlideShowContainer span.circ{
+        border: 12px solid lavender;
+        height: 0px;
+        border-radius: 100%;
+        margin: 22px 10px 0 10px;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Adding Hover effect :: Image Selection Circle
+    */
+    body div.imageContainer div.imageSlideShowContainer span.circ:hover{
+        border: 10px solid pink;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                                Body :: 6th part :: 
+                                Adding contact Form :: 
+                                Background Image
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.contact{
+        background-image: url('Images&Videos/Contact.jpg');
+        width: 90%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Inputs
+    */
+    body div.contact form input{
+        background: none;
+        border: 0px;
+        font-size: 25px;
+        font-weight: bolder;
+        border-radius: 5px;
+        border-bottom: 5px solid rgb(122, 40, 7);
+        color: rgb(122, 40, 7);
+        margin-right: 10px;
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Select
+    */
+    body div.contact form select{
+        background: none;
+        border: 0px;
+        font-size: 20px;
+        font-weight: bolder;
+        border-radius: 5px;
+        border-bottom: 5px solid rgb(122, 40, 7);
+        color: rgb(122, 40, 7);
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: TextAreaa
+    */
+    body div.contact form textarea{
+        background: none;
+        border: 2px solid rgb(122, 40, 7);
+        font-size: 25px;
+        font-weight: bolder;
+        border-radius: 5px;
+        color: rgb(122, 40, 7);
+        margin-right: 10px;
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Span ::
+        for Male Female and @
+    */
+    body div.contact form span{
+        background: none;
+        border: 0px;
+        font-size: 20px;
+        margin-right: 10px;
+        font-weight: bolder;
+        color: rgb(122, 40, 7);
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Icons
+    */
+    body div.contact form i.fa{
+        color: rgb(122, 40, 7);
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Changing ::
+        PlaceHolder Color
+    */
+    ::placeholder{ /* Firefox */
+        color: rgb(110, 18, 18);
+        text-align: center;
+    }
+    :-ms-input-placeholder{ /* Internet Explorer 10-11 */
+        color: rgb(110, 18, 18);
+        text-align: center;
+    }
+    ::-ms-input-placeholder{ /* Microsoft Edge */
+        color: rgb(110, 18, 18);
+        text-align: center;
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Button
+    */
+    body div.contact form button{
+        font-size: 25px;
+        font-weight: bolder;
+        background-color: black;
+        color: whitesmoke;
+        cursor: pointer;
+        padding: 5px 10px;
+        border-radius: 10px;   
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Adding Hover Effect ::
+        Button
+    */
+    body div.contact form button:hover{
+        color: pink;  
+    }
+
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: 7th Part :: 
+                            Adding Background 
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body footer.foot{
+        background-image: linear-gradient(to bottom, rgb(95, 19, 19), rgb(175, 157, 157));
+    }
+    /*
+        Body :: 7th Part :: 
+        Aligning Footer Items 
+        Side by side
+    */
+    body footer.foot div.footerFlex{
+        display: flex;
+    }
+    /*
+        Body :: 7th Part :: 
+        Left Side :: Address Placing
+    */
+    body footer.foot div.footerFlex div#address{
+        line-height: 25px;
+        width: 66%;
+        margin: 20px 20px 20px 70px;
+    }
+    /*
+        Body :: 7th Part :: 
+        Left Side :: Address :: Content ::
+        Aligning Side by Side
+    */
+    body footer.foot div.footerFlex div#address div.area{
+        display: flex;
+    }
+    /*
+        Body :: 7th Part :: 
+        Left Side :: Address :: Content ::
+        Styling Address
+    */
+    body footer.foot div.footerFlex div#address div.area p{
+        width: 25%;
+        margin-top: 25px;
+        margin-right: 10px;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: 7th Part :: 
+        Right Side :: Social Placing
+    */
+    body footer.foot div.footerFlex div#social{
+        line-height: 25px;
+        width: 30%;
+        margin: 20px 20px 20px 70px;
+    }
+    /*
+        Body :: 7th Part :: 
+        Right Side :: Social ::
+        Styling list Elements
+    */
+    body footer.foot div.footerFlex div#social ul{
+        list-style: none;
+        text-align: center;
+        line-height: 60px;
+    }
+    /*
+        Body :: 7th Part :: 
+        Right Side :: Social ::
+        Content
+    */
+    body footer.foot div.footerFlex div#social ul li a{
+        text-decoration: none;
+        width: 25%;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: 7th Part :: 
+        Right Side :: Social ::
+        Icons
+    */
+    body footer.foot div.footerFlex div#social ul li i{
+        width: 15%;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    /*
+    Body :: Styling h1 Heading
+    */
+    body h1{
+        text-align: center;
+        font-family: cursive;
+        border-top: 3px solid rgb(50, 110, 110);
+    }
+    /*
+        Body Background Image :: 
+        On which Navbar and about with
+        enroll button is placed
+    */
+    body div.background{
+        background-image: url('Images&Videos/carousel 1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        position: relative;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Placing Navbar :: Flex and 
+        aligining contect
+    */
+    body div.background nav div.navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Left side :: Content :: 
+        Logo Name and styling
+    */
+    body div.background nav div.navbar div.logo div{
+        padding: 20px 15px 0 15px;
+        height: 60px;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: bold;
+        color: whitesmoke;
+        background-image: linear-gradient(to left, rgba(168, 15, 15, 1), rgb(12, 12, 12));
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Aligning content side by side
+    */
+    body div.background nav div.navbar div.services ul{
+        display: flex;
+        list-style: none;
+        margin-top: 10px;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Content :: Styling 
+    */
+    body div.background nav div.navbar div.services ul.items li a{
+        text-decoration: none;
+        color: black;
+        margin-right: 10px;
+        padding: 5px 10px;
+        font-size: 20px;
+        text-align: center;
+        color: whitesmoke;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Content :: Hover 
+    */
+    body div.background nav div.navbar div.services ul.items li a:hover{
+        background-color: black;
+        text-align: center;
+        color: pink;
+        font-size: 21px;
+        border-radius: 20px;
+    }
+    /*
+        Body Background Image :: About
+    */
+    body div.background div.about p{
+        position: absolute;
+        top: 30%;
+        margin: 0 80px;
+        font-size: 20px;
+        color: whitesmoke;
+        text-align: center;
+    }
+    /*
+        Body Background Image :: Enroll Button
+    */
+    body div.background div.btnknow button{
+        position: absolute;
+        top: 60%;
+        left: 45%;
+        font-size: 25px;
+        padding: 5px 10px;
+        background-image: linear-gradient(to left, rgba(168, 15, 15, 1), rgb(12, 12, 12));
+        border: 0px;
+        border-radius: 8px;
+        color: whitesmoke;
+        font-family: cursive;
+        cursor: pointer;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: 2nd part :: 
+                            Adding video Background
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.video1 div.backgroundVideo{
+        background-color: black;
+        margin-left: 80px;
+        margin-right: 70px;
+        margin-top: -35px;
+        color: whitesmoke;
+        position: relative;
+        height: 450px;
+    }
+    /*
+        Body :: 2nd part :: 
+        Placing video on ::  
+        video Background
+    */
+    body div.video1 div.backgroundVideo video{
+        width: 80%;
+        margin-top: 50px;
+        margin-left: 65px;
+        cursor: pointer;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: 3rd part :: Cards ::
+                            Services Offered Section ::  
+                            Background
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.cards{
+        background-image: linear-gradient(to right, rgb(7, 7, 17), rgb(54, 131, 131));
+        height: 400px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 1
+    */
+    body div.cards div#card1{
+        width: 25%;
+        height: 300px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(3deg);
+        border: 1px solid black;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 1 Image
+    */
+    body div.cards div#card1 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 2
+    */
+    body div.cards div#card2{
+        width: 25%;
+        height: 300px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(-2deg);
+        border: 1px solid black;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 2 Image
+    */
+    body div.cards div#card2 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 3
+    */
+    body div.cards div#car3{
+        width: 25%;
+        height: 300px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(5deg);
+        border: 1px solid black;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 3 Image
+    */
+    body div.cards div#car3 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card About
+    */
+    body div.cards div.cardsItem div.cardAbout{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                        Body :: 4th part ::
+                        Member Benefits Offered Section ::  
+                        aligning side by side
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.facilities{
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 3px solid rgb(50, 110, 110);
+    }
+    /*
+        Body :: 4th part ::
+        Member Benefits Offered Section ::  
+        Styling Benefit Image
+    */
+    body div.facilities img{
+        height: 100px;
+        width: 150px;
+        display: block;
+        margin: 15px auto;
+    }
+    /*
+        Body :: 4th part ::
+        Member Benefits Offered Section ::  
+        Styling Benefit Heading
+    */
+    body div.facilities div.facilitiesText{
+        font-size: 20px;
+        font-family: cursive;
+        text-align: center;
+        font-weight: bolder;
+        margin-bottom: 15px;
+        margin-right: 5px;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                        Body :: 5th part :: Image container :: 
+                        Adding Background and Styling for
+                        Image slideshow
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.imageContainer{
+        background-image: linear-gradient(to right, rgb(134, 29, 29), rgb(14, 9, 9));
+        height: 500px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing
+    */
+    body div.imageContainer div.imageSlideShowContainer{
+        height: 430px;
+        width: 85%;
+        top: 8%;
+        left: 7%;
+        position: absolute;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Placing Image and sizing it
+    */
+    body div.imageContainer div.imageSlideShowContainer img{
+        left: 3%;
+        top: 7%;
+        width: 95%; 
+        height: 400px;
+        position: relative;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Aligning Left Right button And Image 
+        Selction Circle Side By Side
+    */
+    body div.imageContainer div.imageSlideShowContainer div.buttCirc{
+        display: flex; 
+        position: absolute;
+        top: 83%;
+        left: 35%;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Styling Image Left Right Button
+    */
+    body div.imageContainer div.imageSlideShowContainer div.butt{
+        font-size: 3rem;
+        color: lightcyan;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Adding Hover effect :: Left Right Button
+    */
+    body div.imageContainer div.imageSlideShowContainer div.butt:hover{
+        color: pink;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Styling Image Selection Circle
+    */
+    body div.imageContainer div.imageSlideShowContainer span.circ{
+        border: 12px solid lavender;
+        height: 0px;
+        border-radius: 100%;
+        margin: 22px 10px 0 10px;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Adding Hover effect :: Image Selection Circle
+    */
+    body div.imageContainer div.imageSlideShowContainer span.circ:hover{
+        border: 10px solid pink;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                                Body :: 6th part :: 
+                                Adding contact Form :: 
+                                Background Image
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.contact{
+        background-image: url('images&videos/Contact.jpg');
+        width: 90%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Inputs
+    */
+    body div.contact form input{
+        background: none;
+        border: 0px;
+        font-size: 25px;
+        font-weight: bolder;
+        border-radius: 5px;
+        border-bottom: 5px solid rgb(92, 31, 7);
+        color: rgb(92, 31, 7);
+        margin-right: 10px;
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Select
+    */
+    body div.contact form select{
+        background: none;
+        border: 0px;
+        font-size: 20px;
+        font-weight: bolder;
+        border-radius: 5px;
+        border-bottom: 5px solid rgb(92, 31, 7);
+        color: rgb(92, 31, 7);
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: TextAreaa
+    */
+    body div.contact form textarea{
+        background: none;
+        border: 2px solid rgb(92, 31, 7);
+        font-size: 25px;
+        font-weight: bolder;
+        border-radius: 5px;
+        color: rgb(92, 31, 7);
+        margin-right: 10px;
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Span ::
+        for Male Female and @
+    */
+    body div.contact form span{
+        background: none;
+        border: 0px;
+        font-size: 20px;
+        margin-right: 10px;
+        font-weight: bolder;
+        color: rgb(92, 31, 7);
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Icons
+    */
+    body div.contact form i.fa{
+        color: rgb(92, 31, 7);
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Changing ::
+        PlaceHolder Color
+    */
+    ::placeholder{ /* Firefox */
+        color: rgb(110, 18, 18);
+    }
+    :-ms-input-placeholder{ /* Internet Explorer 10-11 */
+        color: rgb(110, 18, 18);
+    }
+    ::-ms-input-placeholder{ /* Microsoft Edge */
+        color: rgb(110, 18, 18);
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Button
+    */
+    body div.contact form button{
+        font-size: 25px;
+        font-weight: bolder;
+        background-color: black;
+        color: whitesmoke;
+        cursor: pointer;
+        padding: 5px 10px;
+        border-radius: 10px;   
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Adding Hover Effect ::
+        Button
+    */
+    body div.contact form button:hover{
+        color: pink;  
+    }
+
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: 7th Part :: 
+                            Adding Background 
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body footer.foot{
+        background-image: linear-gradient(to right, rgb(95, 19, 19), rgb(90, 44, 44));
+    }
+    /*
+        Body :: 7th Part :: 
+        Aligning Footer Items 
+        Side by side
+    */
+    body footer.foot div.footerFlex{
+        display: flex;
+    }
+    /*
+        Body :: 7th Part :: 
+        Left Side :: Address Placing
+    */
+    body footer.foot div.footerFlex div#address{
+        line-height: 25px;
+        width: 66%;
+        margin: 20px 20px 20px 70px;
+    }
+    /*
+        Body :: 7th Part :: 
+        Left Side :: Address :: Content ::
+        Aligning Side by Side
+    */
+    body footer.foot div.footerFlex div#address div.area{
+        display: flex;
+    }
+    /*
+        Body :: 7th Part :: 
+        Left Side :: Address :: Content ::
+        Styling Address
+    */
+    body footer.foot div.footerFlex div#address div.area p{
+        width: 25%;
+        margin-top: 25px;
+        margin-right: 10px;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: 7th Part :: 
+        Right Side :: Social Placing
+    */
+    body footer.foot div.footerFlex div#social{
+        line-height: 25px;
+        width: 30%;
+        margin: 20px 20px 20px 70px;
+    }
+    /*
+        Body :: 7th Part :: 
+        Right Side :: Social ::
+        Styling list Elements
+    */
+    body footer.foot div.footerFlex div#social ul{
+        list-style: none;
+        text-align: center;
+        line-height: 60px;
+    }
+    /*
+        Body :: 7th Part :: 
+        Right Side :: Social ::
+        Content
+    */
+    body footer.foot div.footerFlex div#social ul li a{
+        text-decoration: none;
+        width: 25%;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: 7th Part :: 
+        Right Side :: Social ::
+        Icons
+    */
+    body footer.foot div.footerFlex div#social ul li i{
+        width: 15%;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+
+
+}
+
+
+
+
+@media (min-width: 546px) and (max-width: 768px){
+    /*
+    Body :: Styling h1 Heading
+    */
+    body h1{
+        text-align: center;
+        font-family: cursive;
+        border-top: 3px solid rgb(50, 110, 110);
+    }
+    /*
+        Body Background Image :: 
+        On which Navbar and about with
+        enroll button is placed
+    */
+    body div.background{
+        background-image: url('Images&Videos/carousel 1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        position: relative;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Placing Navbar :: Flex and 
+        aligining contect
+    */
+    body div.background nav div.navbar{
+        justify-content: space-between;
+        height: 105px;
+        background-image: linear-gradient(to left, rgba(168, 15, 15, 1), rgb(12, 12, 12));
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Left side :: Content :: 
+        Logo Name and styling
+    */
+    body div.background nav div.navbar div.logo div{
+        padding: 20px 15px 0 15px;
+        height: 40px;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: bold;
+        color: whitesmoke;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Aligning content side by side
+    */
+    body div.background nav div.navbar div.services ul{
+        display: flex;
+        list-style: none;
+        margin-top: 10px;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Content :: Styling 
+    */
+    body div.background nav div.navbar div.services ul.items li a{
+        text-decoration: none;
+        color: black;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 10px 6px;
+        font-size: 20px;
+        text-align: center;
+        color: whitesmoke;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Content :: Hover 
+    */
+    body div.background nav div.navbar div.services ul.items li a:hover{
+        background-color: black;
+        text-align: center;
+        color: pink;
+        font-size: 21px;
+        border-radius: 20px;
+    }
+    /*
+        Body Background Image :: About
+    */
+    body div.background div.about p{
+        position: absolute;
+        top: 30%;
+        margin: 0 45px;
+        font-size: 18px;
+        color: whitesmoke;
+        text-align: center;
+    }
+    /*
+        Body Background Image :: Enroll Button
+    */
+    body div.background div.btnknow button{
+        position: absolute;
+        top: 60%;
+        left: 35%;
+        font-size: 25px;
+        padding: 5px 10px;
+        background-image: linear-gradient(to left, rgba(168, 15, 15, 1), rgb(12, 12, 12));
+        border: 0px;
+        border-radius: 8px;
+        color: whitesmoke;
+        font-family: cursive;
+        cursor: pointer;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: 2nd part :: 
+                            Adding video Background
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.video1 div.backgroundVideo{
+        background-color: black;
+        margin-top: -65px;
+        color: whitesmoke;
+        position: relative;
+        height: 440px;
+    }
+    /*
+        Body :: 2nd part :: 
+        Placing video on ::  
+        video Background
+    */
+    body div.video1 div.backgroundVideo video{
+        width: 100%;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: 3rd part :: Cards ::
+                            Services Offered Section ::  
+                            Background
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.cards{
+        background-image: linear-gradient(to right, rgb(7, 7, 17), rgb(54, 131, 131));
+        height: 740px;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 1
+    */
+    body div.cards div#card1{
+        width: 40%;
+        height: 300px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(2deg);
+        border: 1px solid black;
+        float: left;
+        margin: 25px 0 0 25px;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 1 Image
+    */
+    body div.cards div#card1 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 2
+    */
+    body div.cards div#card2{
+        width: 40%;
+        height: 300px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(-3deg);
+        border: 1px solid black;
+        float: right;
+        margin: 25px 25px 0 0;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 2 Image
+    */
+    body div.cards div#card2 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 3
+    */
+    body div.cards div#car3{
+        width: 40%;
+        height: 300px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(1deg);
+        border: 1px solid black;
+        margin-left: 150px;
+        float: left;
+        margin-top: 40px;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 3 Image
+    */
+    body div.cards div#car3 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card About
+    */
+    body div.cards div.cardsItem div.cardAbout{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                        Body :: 4th part ::
+                        Member Benefits Offered Section ::  
+                        aligning side by side
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.facilities{
+        height: 365px;
+        border-bottom: 3px solid rgb(50, 110, 110);
+    }
+    /*
+        Body :: 4th part ::
+        Member Benefits Offered Section ::  
+        Aligning Facilities
+    */
+    body div.facilities div.facilities1{
+        float: left;
+        margin: 0 15px;
+    }
+    body div.facilities div.facilities2{
+        float: left;
+        margin-right: 15px;
+        margin-left: 5px;
+    }
+    body div.facilities div.facilities3{
+        float: right;
+    }
+    body div.facilities div.facilities4{
+        float: left;
+        margin: 0 8px;
+    }
+    body div.facilities div.facilities5{
+        float: right;
+    }
+    /*
+        Body :: 4th part ::
+        Member Benefits Offered Section ::  
+        Styling Benefit Image
+    */
+    body div.facilities img{
+        height: 100px;
+        width: 150px;
+        display: block;
+        margin: 15px auto;
+    }
+    /*
+        Body :: 4th part ::
+        Member Benefits Offered Section ::  
+        Styling Benefit Heading
+    */
+    body div.facilities div.facilitiesText{
+        font-size: 20px;
+        font-family: cursive;
+        text-align: center;
+        font-weight: bolder;
+        margin-bottom: 15px;
+        margin-right: 5px;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                        Body :: 5th part :: Image container :: 
+                        Adding Background and Styling for
+                        Image slideshow
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.imageContainer{
+        background-image: linear-gradient(to right, rgb(134, 29, 29), rgb(14, 9, 9));
+        height: 500px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing
+    */
+    body div.imageContainer div.imageSlideShowContainer{
+        height: 430px;
+        width: 100%;
+        top: 8%;
+        position: absolute;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Placing Image and sizing it
+    */
+    body div.imageContainer div.imageSlideShowContainer img{
+        top: 7%;
+        width: 100%; 
+        height: 400px;
+        position: relative;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Aligning Left Right button And Image 
+        Selction Circle Side By Side
+    */
+    body div.imageContainer div.imageSlideShowContainer div.buttCirc{
+        display: flex; 
+        position: absolute;
+        top: 83%;
+        left: 20%;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Styling Image Left Right Button
+    */
+    body div.imageContainer div.imageSlideShowContainer div.butt{
+        font-size: 3rem;
+        color: lightcyan;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Adding Hover effect :: Left Right Button
+    */
+    body div.imageContainer div.imageSlideShowContainer div.butt:hover{
+        color: pink;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Styling Image Selection Circle
+    */
+    body div.imageContainer div.imageSlideShowContainer span.circ{
+        border: 12px solid lavender;
+        height: 0px;
+        border-radius: 100%;
+        margin: 22px 10px 0 10px;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Adding Hover effect :: Image Selection Circle
+    */
+    body div.imageContainer div.imageSlideShowContainer span.circ:hover{
+        border: 10px solid pink;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                                Body :: 6th part :: 
+                                Adding contact Form :: 
+                                Background Image
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.contact{
+        background-image: url('images&videos/Contact.jpg');
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Inputs
+    */
+    body div.contact form input{
+        background: none;
+        border: 0px;
+        font-size: 20px;
+        font-weight: bolder;
+        border-radius: 5px;
+        border-bottom: 5px solid rgb(92, 31, 7);
+        color: rgb(92, 31, 7);
+        margin-right: 10px;
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Select
+    */
+    body div.contact form select{
+        background: none;
+        border: 0px;
+        font-size: 20px;
+        font-weight: bolder;
+        border-radius: 5px;
+        border-bottom: 5px solid rgb(92, 31, 7);
+        color: rgb(92, 31, 7);
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: TextAreaa
+    */
+    body div.contact form textarea{
+        background: none;
+        border: 2px solid rgb(92, 31, 7);
+        font-size: 25px;
+        font-weight: bolder;
+        border-radius: 5px;
+        color: rgb(92, 31, 7);
+        margin-right: 10px;
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Span ::
+        for Male Female and @
+    */
+    body div.contact form span{
+        background: none;
+        border: 0px;
+        font-size: 20px;
+        margin-right: 10px;
+        font-weight: bolder;
+        color: rgb(92, 31, 7);
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Icons
+    */
+    body div.contact form i.fa{
+        color: rgb(92, 31, 7);
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Changing ::
+        PlaceHolder Color
+    */
+    ::placeholder{ /* Firefox */
+        color: rgb(95, 35, 35);
+        text-align: center;
+    }
+    :-ms-input-placeholder{ /* Internet Explorer 10-11 */
+        color: rgb(100, 38, 38);
+        text-align: center;
+    }
+    ::-ms-input-placeholder{ /* Microsoft Edge */
+        color: rgb(99, 31, 31);
+        text-align: center;
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Button
+    */
+    body div.contact form button{
+        font-size: 25px;
+        font-weight: bolder;
+        background-color: black;
+        color: whitesmoke;
+        cursor: pointer;
+        padding: 5px 10px;
+        border-radius: 10px;   
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Adding Hover Effect ::
+        Button
+    */
+    body div.contact form button:hover{
+        color: pink;  
+    }
+
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: 7th Part :: 
+                            Footer :: Adding Background 
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body footer.foot{
+        background-image: linear-gradient(to right, rgb(95, 19, 19), rgb(90, 44, 44));
+    }
+    /*
+        Body :: 7th Part :: Footer :: 
+        Aligning Footer Items 
+        Side by side
+    */
+    body footer.foot div.footerFlex{
+        display: flex;
+    }
+    /*
+        Body :: 7th Part :: Footer :: 
+        Left Side :: Address Placing
+    */
+    body footer.foot div.footerFlex div#address{
+        line-height: 10px;
+        width: 66%;
+        margin: 20px 0px 20px 20px;
+    }
+    /*
+        Body :: 7th Part :: Footer :: 
+        Left Side :: Address :: Content ::
+        Aligning Side by Side
+    */
+    body footer.foot div.footerFlex div#address div.area{
+        display: flex;
+    }
+    /*
+        Body :: 7th Part :: Footer :: 
+        Left Side :: Address :: Content ::
+        Styling Address
+    */
+    body footer.foot div.footerFlex div#address div.area p{
+        width: 25%;
+        line-height: 30px;
+        margin-top: 25px;
+        margin-right: 10px;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: 7th Part :: Footer :: 
+        Right Side :: Social Placing
+    */
+    body footer.foot div.footerFlex div#social{
+        line-height: 25px;
+        width: 30%;
+        margin: 20px 20px 20px 30px;
+    }
+    /*
+        Body :: 7th Part :: Footer :: 
+        Right Side :: Social ::
+        Styling list Elements
+    */
+    body footer.foot div.footerFlex div#social ul{
+        list-style: none;
+        text-align: center;
+        line-height: 80px;
+    }
+    /*
+        Body :: 7th Part :: Footer :: 
+        Right Side :: Social ::
+        Content
+    */
+    body footer.foot div.footerFlex div#social ul li a{
+        text-decoration: none;
+        width: 25%;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: 7th Part :: Footer :: 
+        Right Side :: Social ::
+        Icons
+    */
+    body footer.foot div.footerFlex div#social ul li i{
+        width: 15%;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+
+
+}
+
+
+
+
+@media (max-width: 546px){
+    /*
+    Body :: Styling h1 Heading
+    */
+    body h1{
+        text-align: center;
+        font-family: cursive;
+        border-top: 3px solid rgb(50, 110, 110);
+    }
+    /*
+        Body Background Image :: 
+        On which Navbar and about with
+        enroll button is placed
+    */
+    body div.background{
+        background-image: url('Images&Videos/carousel 1.jpg');
+        background-size: cover;
+        height: 450px;
+        position: relative;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Placing Navbar :: Flex and 
+        aligining contect
+    */
+    body div.background nav div.navbar{
+        height: 135px;
+        display: flex;
+        justify-content: space-between;
+        background-image: linear-gradient(to left, rgba(168, 15, 15, 1), rgb(12, 12, 12));
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Left side :: Content :: 
+        Logo Name and styling
+    */
+    body div.background nav div.navbar div.logo div{
+        padding: 20px 0 0 15px;
+        height: 40px;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: bold;
+        color: whitesmoke;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Aligning content side by side
+    */
+    body div.background nav div.navbar div.services ul{
+        list-style: none;
+        margin-top: 7px;
+        margin-right: 20px;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Content :: Styling 
+    */
+    body div.background nav div.navbar div.services ul.items li a{
+        text-decoration: none;
+        color: black;
+        padding: 3px 8px;
+        font-size: 18px;
+        text-align: center;
+        color: whitesmoke;
+        line-height: 25px;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Content :: Hover 
+    */
+    body div.background nav div.navbar div.services ul.items li a:hover{
+        background-color: black;
+        text-align: center;
+        color: pink;
+        font-size: 19px;
+        border-radius: 20px;
+    }
+    /*
+        Body Background Image :: About
+    */
+    body div.background div.about p{
+        position: absolute;
+        top: 38%;
+        margin: 0 20px;
+        font-size: 15px;
+        color: whitesmoke;
+        text-align: center;
+    }
+    /*
+        Body Background Image :: Enroll Button
+    */
+    body div.background div.btnknow button{
+        position: absolute;
+        top: 70%;
+        left: 30%;
+        font-size: 20px;
+        padding: 5px 10px;
+        background-image: linear-gradient(to left, rgba(168, 15, 15, 1), rgb(12, 12, 12));
+        border: 0px;
+        border-radius: 8px;
+        color: whitesmoke;
+        font-family: cursive;
+        cursor: pointer;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: 2nd part :: 
+                            Adding video Background
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.video1 div.backgroundVideo{
+        background-color: black;
+        margin-top: -65px;
+        color: whitesmoke;
+        position: relative;
+        height: 400px;
+    }
+    /*
+        Body :: 2nd part :: 
+        Placing video on ::  
+        video Background
+    */
+    body div.video1 div.backgroundVideo video{
+        width: 100%;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: 3rd part :: Cards ::
+                            Services Offered Section ::  
+                            Background
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.cards{
+        background-image: linear-gradient(to right, rgb(7, 7, 17), rgb(54, 131, 131));
+        height: 1060px;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 1
+    */
+    body div.cards div#card1{
+        width: 80%;
+        height: 300px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(2deg);
+        border: 1px solid black;
+        margin: 25px 0 0 25px;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 1 Image
+    */
+    body div.cards div#card1 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 2
+    */
+    body div.cards div#card2{
+        width: 80%;
+        height: 300px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(-3deg);
+        border: 1px solid black;
+        margin: 25px 25px 0 25px;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 2 Image
+    */
+    body div.cards div#card2 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 3
+    */
+    body div.cards div#car3{
+        width: 80%;
+        height: 300px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(1deg);
+        border: 1px solid black;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card 3 Image
+    */
+    body div.cards div#car3 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: 3rd part :: Cards ::
+        Services Offered Section ::  
+        Styling Card About
+    */
+    body div.cards div.cardsItem div.cardAbout{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                        Body :: 4th part ::
+                        Member Benefits Offered Section ::  
+                        aligning side by side
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.facilities{
+        height: 900px;
+        border-bottom: 3px solid rgb(50, 110, 110);
+    }
+    /*
+        Body :: 4th part ::
+        Member Benefits Offered Section :: 
+        aligning and Styling Benefit Image
+    */
+    body div.facilities img{
+        height: 100px;
+        width: 70%;
+        display: block;
+        margin: 25px auto;
+    }
+    /*
+        Body :: 4th part ::
+        Member Benefits Offered Section ::  
+        Styling Benefit Heading
+    */
+    body div.facilities div.facilitiesText{
+        font-size: 20px;
+        font-family: cursive;
+        text-align: center;
+        font-weight: bolder;
+        margin-bottom: 15px;
+        margin-right: 5px;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                        Body :: 5th part :: Image container :: 
+                        Adding Background and Styling for
+                        Image slideshow
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.imageContainer{
+        background-image: linear-gradient(to right, rgb(134, 29, 29), rgb(14, 9, 9));
+        height: 500px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing
+    */
+    body div.imageContainer div.imageSlideShowContainer{
+        height: 430px;
+        width: 100%;
+        top: 8%;
+        position: absolute;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Placing Image and sizing it
+    */
+    body div.imageContainer div.imageSlideShowContainer img{
+        top: 7%;
+        width: 100%; 
+        height: 400px;
+        position: relative;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Aligning Left Right button And Image 
+        Selction Circle Side By Side
+    */
+    body div.imageContainer div.imageSlideShowContainer div.buttCirc{
+        display: flex; 
+        position: absolute;
+        top: 83%;
+        left: 13%;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Styling Image Left Right Button
+    */
+    body div.imageContainer div.imageSlideShowContainer div.butt{
+        font-size: 3rem;
+        color: lightcyan;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Adding Hover effect :: Left Right Button
+    */
+    body div.imageContainer div.imageSlideShowContainer div.butt:hover{
+        color: pink;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Styling Image Selection Circle
+    */
+    body div.imageContainer div.imageSlideShowContainer span.circ{
+        border: 12px solid lavender;
+        height: 0px;
+        border-radius: 100%;
+        margin: 22px 10px 0 10px;
+    }
+    /*
+        Body :: 5th part :: Image container :: 
+        Image Slide Show Container Placing ::
+        Adding Hover effect :: Image Selection Circle
+    */
+    body div.imageContainer div.imageSlideShowContainer span.circ:hover{
+        border: 10px solid pink;
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                                Body :: 6th part :: 
+                                Adding contact Form :: 
+                                Background Image
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.contact{
+        background-image: url('images&videos/Contact.jpg');
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Inputs
+    */
+    body div.contact form input{
+        background: none;
+        border: 0px;
+        font-size: 15px;
+        font-weight: bolder;
+        border-radius: 5px;
+        border-bottom: 5px solid rgb(110, 18, 18);
+        color: rgb(110, 18, 18);
+        margin-right: 10px;
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Select
+    */
+    body div.contact form select{
+        background: none;
+        border: 0px;
+        font-size: 15px;
+        font-weight: bolder;
+        border-radius: 5px;
+        border-bottom: 5px solid rgb(110, 18, 18);
+        color: rgb(110, 18, 18);
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: TextAreaa
+    */
+    body div.contact form textarea{
+        background: none;
+        border: 2px solid rgb(110, 18, 18);
+        font-size: 20px;
+        font-weight: bolder;
+        border-radius: 5px;
+        color: rgb(110, 18, 18);
+        margin-right: 10px;
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Span ::
+        for Male Female and @
+    */
+    body div.contact form span{
+        background: none;
+        border: 0px;
+        font-size: 15px;
+        margin-right: 10px;
+        font-weight: bolder;
+        color: rgb(110, 18, 18);
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Icons
+    */
+    body div.contact form i.fa{
+        color: rgb(110, 18, 18);
+        font-size: 30px;
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Changing ::
+        PlaceHolder Color
+    */
+    ::placeholder{ /* Firefox */
+        color: rgb(110, 18, 18);
+    }
+    :-ms-input-placeholder{ /* Internet Explorer 10-11 */
+        color: rgb(110, 18, 18);
+    }
+    ::-ms-input-placeholder{ /* Microsoft Edge */
+        color: rgb(110, 18, 18);
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Button
+    */
+    body div.contact form button{
+        font-size: 25px;
+        font-weight: bolder;
+        background-color: black;
+        color: whitesmoke;
+        cursor: pointer;
+        padding: 5px 10px;
+        border-radius: 10px;   
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Adding Hover Effect ::
+        Button
+    */
+    body div.contact form button:hover{
+        color: pink;  
+    }
+
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: 7th Part :: 
+                            Footer :: Adding Background 
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body footer.foot{
+        background-image: linear-gradient(to right, rgb(95, 19, 19), rgb(172, 87, 87));
+    }
+    /*
+        Body :: 7th Part :: Footer :: 
+        Aligning Footer Items 
+        Side by side
+    */
+    body footer.foot div.footerFlex{
+        display: flex;
+    }
+    /*
+        Body :: 7th Part :: Footer :: 
+        Left Side :: Address Placing
+    */
+    body footer.foot div.footerFlex div#address{
+        line-height: 10px;
+        width: 66%;
+        margin: 20px 0px 20px 10px;
+    }
+    /*
+        Body :: 7th Part :: Footer :: 
+        Left Side :: Address :: Content ::
+        Aligning Side by Side
+    */
+    body footer.foot div.footerFlex div#address div.area{
+        display: flex;
+    }
+    /*
+        Body :: 7th Part :: Footer :: 
+        Left Side :: Address :: Content ::
+        Styling Address
+    */
+    body footer.foot div.footerFlex div#address div.area p{
+        width: 25%;
+        line-height: 20px;
+        margin-top: 25px;
+        margin-right: 5px;
+        font-size: 15px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: 7th Part :: Footer :: 
+        Right Side :: Social Placing
+    */
+    body footer.foot div.footerFlex div#social{
+        line-height: 25px;
+        width: 30%;
+        margin: 20px 0 20px 0;
+    }
+    /*
+        Body :: 7th Part :: Footer :: 
+        Right Side :: Social ::
+        Styling list Elements
+    */
+    body footer.foot div.footerFlex div#social ul{
+        list-style: none;
+        text-align: center;
+        line-height: 45px;
+    }
+    /*
+        Body :: 7th Part :: Footer :: 
+        Right Side :: Social ::
+        Content
+    */
+    body footer.foot div.footerFlex div#social ul li a{
+        text-decoration: none;
+        font-size: 15px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: 7th Part :: Footer :: 
+        Right Side :: Social ::
+        Icons
+    */
+    body footer.foot div.footerFlex div#social ul li i{
+        font-size: 15px;
+        color: whitesmoke;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

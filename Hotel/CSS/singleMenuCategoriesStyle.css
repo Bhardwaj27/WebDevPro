@@ -1,0 +1,391 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body header#head{
+    background-image: url('images&videos/fruit\ 2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 420px;
+    position: relative;
+}
+body header#head nav#navbar ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+body header#head nav#navbar ul li{
+    margin: 5px 20px 0 20px;
+}
+body header#head nav#navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: monospace;
+}
+body header#head nav#navbar ul li a:hover{
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+body header#head h1{
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 70px;
+    color: black;
+    position: absolute;
+    top: 30%;
+    left: 33%;
+    color: rgb(53, 53, 8);
+}
+
+body header#head button {
+    background-color: olive;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    padding: 2px 8px;
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+
+body header#head button:hover{
+    color: orchid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body section.categories{
+    background-image: linear-gradient(to right, rgb(83, 83, 6), rgb(189, 189, 165));
+    border-radius: 90px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 110px;
+    margin: 0 40px;
+}
+
+body section.categories div.categoryBox{
+    border: 5px solid black;
+    position: relative;
+    height: 100%;
+    width: 110%;
+}
+
+body section.categories div.categoryBox img{
+    height: 100%;
+    width: 100%;
+}
+
+body section.categories div.categoryBox div.overlay{
+    background-color: black;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 70%;
+}
+
+
+body section.categories div.categoryBox img:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: FOOTER :: 
+                            Adding Background 
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body footer#foot{
+        background-image: linear-gradient(to right, rgb(83, 83, 6), rgb(189, 189, 165));
+    }
+    /*
+        Body :: 7th Part :: 
+        Aligning Footer Items 
+        Side by side
+    */
+    body footer#foot div.footerFlex{
+        display: flex;
+        justify-content: space-around;
+    }
+    /*
+        Body :: 7th Part :: 
+        Left Side :: Address Placing
+    */
+    body footer#foot div.footerFlex div#address{
+        margin: 0 0 20px 0;
+    }
+    /*
+        Body :: 7th Part :: 
+        Left Side :: Address :: Content ::
+        Styling Address
+    */
+    body footer#foot div.footerFlex div#address div.area p{
+        margin-top: 25px;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: 7th Part :: 
+        Right Side :: Social Placing
+    */
+    body footer#foot div.footerFlex div#social{
+        margin: 20px 20px 20px 70px;
+    }
+    /*
+        Body :: 7th Part :: 
+        Right Side :: Social ::
+        Styling list Elements
+    */
+    body footer#foot div.footerFlex div#social ul{
+        list-style: none;
+        text-align: center;
+        line-height: 60px;
+    }
+    /*
+        Body :: 7th Part :: 
+        Right Side :: Social ::
+        Content
+    */
+    body footer#foot div.footerFlex div#social ul li a{
+        text-decoration: none;
+        width: 25%;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: 7th Part :: 
+        Right Side :: Social ::
+        Icons
+    */
+    body footer#foot div.footerFlex div#social ul li i{
+        width: 15%;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+
+
+
+
+
+
+    body footer#foot div.footerFlex div#map div#mapcontainer{
+        margin: 20px 20px 20px 50px;
+        border: 5px solid black;
+        height: 200px;
+        width: 400px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

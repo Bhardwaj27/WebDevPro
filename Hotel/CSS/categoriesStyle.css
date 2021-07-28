@@ -1,0 +1,1648 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+@media (min-width: 992px){
+    /*
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+                       1st Part :: Header
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    */
+    /*
+        Header :: Background :: 
+        Aligning & styling
+    */
+    body header#head{
+        background-image: url('images&videos/fruit\ 2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 420px;
+        position: relative;
+    }
+    /*
+        Header :: Navbar ::
+        Aligning
+    */
+    body header#head nav#navbar ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+    /*
+        Header :: Navbar ::
+        ul :: li :: Aligning
+    */
+    body header#head nav#navbar ul li{
+        margin: 5px 20px 0 20px;
+    }
+    /*
+        Header :: Navbar ::
+        ul :: li :: a :: Styling
+    */
+    body header#head nav#navbar ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+        font-family: monospace;
+    }
+    /*
+        Header :: Navbar ::
+        ul :: li :: a :: hover
+    */
+    body header#head nav#navbar ul li a:hover{
+        opacity: 0.7;
+        text-decoration: underline;
+    }
+    /*
+        Header :: Name :: 
+        Algning and Styling
+    */
+    body header#head h1{
+        font-family: cursive;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 70px;
+        color: black;
+        position: absolute;
+        top: 30%;
+        left: 33%;
+        color: rgb(53, 53, 8);
+    }
+    /*
+        Header :: Button :: 
+        Algning and Styling
+    */
+    body header#head button a{
+        background-color: olive;
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+        border-radius: 10px;
+        padding: 2px 8px;
+        cursor: pointer;
+        position: absolute;
+        top: 57%;
+        left: 40%;
+    }
+    /*
+        Header :: Button :: 
+        Hover
+    */
+    body header#head button a:hover{
+        color: gold;
+    }
+    /*
+        Header :: Description :: p
+    */
+    body header#head p{
+        position: absolute;
+        top: 70%;
+        left: 40%;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    /*
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+                       2nd Part :: Menu Category Items
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    */
+    /*
+    body section.categories{
+        background-image: linear-gradient(to right, rgb(83, 83, 6), rgb(189, 189, 165));
+        border-radius: 90px;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        padding: 0 110px;
+        margin: 0 40px;
+    }
+
+    body section.categories div.categoryBox{
+        border: 5px solid black;
+        position: relative;
+        height: 100%;
+        width: 110%;
+    }
+
+    body section.categories div.categoryBox img{
+        height: 100%;
+        width: 100%;
+    }
+
+    body section.categories div.categoryBox div.overlay{
+        background-color: black;
+        width: 100%;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 30px;
+        position: absolute;
+        top: 70%;
+    }
+
+    body section.categories div.categoryBox img:hover{
+        cursor: pointer;
+    }
+    
+    body section.categories div.categoryBox div.overlaySingle{
+        font-size: 10px;
+    }
+    */
+
+
+    /*
+        Menu Category Items :: Background :: 
+        Algining in Grid
+    */
+    body section.categories{
+        background-image: linear-gradient(to right, rgb(83, 83, 6), rgb(189, 189, 165));
+        border-radius: 90px;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 0 110px;
+        margin: 0 40px;
+        display: grid;
+        grid-template-areas: "a b c d"
+                             "e f g h"
+                             "i j k l";
+        gap: 30px;
+
+    }
+    /*
+        Menu Category Items :: Background :: 
+        Giving Grid Template Area To Category Items 
+        & Single Category Food Items
+    */
+    body section.categories div#category1{
+        grid-area: a;
+        height: 200px;
+    }
+    body section.categories div#category2{
+        grid-area: b;
+        height: 200px;
+    }
+    body section.categories div#category3{
+        grid-area: c;
+        height: 200px;
+    }
+    body section.categories div#category4{
+        grid-area: d;
+        height: 200px;
+    }
+    body section.categories div#category5{
+        grid-area: e;
+        height: 200px;
+    }
+    body section.categories div#category6{
+        grid-area: f;
+        height: 200px;
+    }
+    body section.categories div#category7{
+        grid-area: g;
+        height: 200px;
+    }
+    body section.categories div#category8{
+        grid-area: h;
+        height: 200px;
+    }
+    body section.categories div#category9{
+        grid-area: i;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    body section.categories div#category10{
+        grid-area: j;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    body section.categories div#category11{
+        grid-area: k;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    body section.categories div#category12{
+        grid-area: l;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    /*
+        Menu Category Items :: Background :: 
+        Making Category Box :: Aligning Size
+    */
+    body section.categories div.categoryBox{
+        margin-top: 10px;
+        border: 5px solid black;
+        position: relative;
+        height: 100%;
+        width: 110%;
+    }
+    /*
+        Menu Category Items :: Background :: 
+        Making Category Box :: Aligning Image Placed
+    */
+    body section.categories div.categoryBox img{
+        height: 100%;
+        width: 100%;
+    }
+    /*
+        Menu Category Items :: Background :: 
+        Making Category Box :: Placing Overlay 
+        On Category box & Styling
+    */
+    body section.categories div.categoryBox div.overlay{
+        background-color: black;
+        width: 100%;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 20px;
+        position: absolute;
+        top: 70%;
+    }
+    /*
+        Menu Category Items :: Background :: 
+        Making Category Box :: Image Placed :: Hover
+    */
+    body section.categories div.categoryBox img:hover{
+        cursor: pointer;
+    }
+    /*
+        Menu Category Items :: Background :: 
+        Making Category Box :: Placing Overlay 
+        On Category box & Styling Single Category 
+        Food Items Overlay Text
+    */
+    body section.categories div.categoryBox div.overlaySingle{
+        font-size: 10px;
+
+    }
+
+    /*
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+                       3rd Part :: Footer
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    */
+    /*
+        Footer :: Background
+    */
+    body footer#foot{
+        background-image: linear-gradient(to right, rgb(83, 83, 6), rgb(189, 189, 165));
+    }
+    /*
+        Body :: 3rd Part :: 
+        Aligning Footer Items 
+        Side by side
+    */
+    body footer#foot div.footerFlex{
+        display: flex;
+        justify-content: space-around;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Left Side :: Address Placing
+    */
+    body footer#foot div.footerFlex div#address{
+        margin: 0 0 20px 0;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Left Side :: Address :: Content ::
+        Styling Address
+    */
+    body footer#foot div.footerFlex div#address div.area p{
+        margin-top: 25px;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Mid Side :: Map :: Container
+    */
+    body footer#foot div.footerFlex div#map div#mapcontainer{
+        margin: 20px 20px 20px 50px;
+        border: 5px solid black;
+        height: 200px;
+        width: 400px;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social Placing
+    */
+    body footer#foot div.footerFlex div#social{
+        margin: 20px 20px 20px 70px;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social ::
+        Styling list Elements
+    */
+    body footer#foot div.footerFlex div#social ul{
+        list-style: none;
+        text-align: center;
+        line-height: 60px;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social ::
+        Content
+    */
+    body footer#foot div.footerFlex div#social ul li a{
+        text-decoration: none;
+        width: 25%;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social ::
+        Icons
+    */
+    body footer#foot div.footerFlex div#social ul li i{
+        width: 15%;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+
+
+}
+
+
+
+
+@media(min-width: 768px) and (max-width:992px){
+    /*
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+                       1st Part :: Header
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    */
+    /*
+        Header :: Background :: 
+        Aligning & styling
+    */
+    body header#head{
+        background-image: url('images&videos/fruit\ 2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 350px;
+        position: relative;
+    }
+    /*
+        Header :: Navbar ::
+        Aligning
+    */
+    body header#head nav#navbar ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+    /*
+        Header :: Navbar ::
+        ul :: li :: Aligning
+    */
+    body header#head nav#navbar ul li{
+        margin: 5px 20px 0 20px;
+    }
+    /*
+        Header :: Navbar ::
+        ul :: li :: a :: Styling
+    */
+    body header#head nav#navbar ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+        font-family: monospace;
+    }
+    /*
+        Header :: Navbar ::
+        ul :: li :: a :: hover
+    */
+    body header#head nav#navbar ul li a:hover{
+        opacity: 0.7;
+        text-decoration: underline;
+    }
+    /*
+        Header :: Name :: 
+        Algning and Styling
+    */
+    body header#head h1{
+        font-family: cursive;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 70px;
+        color: black;
+        position: absolute;
+        top: 20%;
+        left: 25%;
+        color: rgb(53, 53, 8);
+    }
+    /*
+        Header :: Button :: 
+        Algning and Styling
+    */
+    body header#head button a{
+        background-color: olive;
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+        border-radius: 10px;
+        padding: 2px 8px;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left: 35%;
+    }
+    /*
+        Header :: Button :: 
+        Hover
+    */
+    body header#head button a:hover{
+        color: gold;
+    }
+    /*
+        Header :: Description :: p
+    */
+    body header#head p{
+        position: absolute;
+        top: 65%;
+        left: 35%;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    /*
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+                       2nd Part :: Menu Category Items
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    */
+    /*
+    body section.categories{
+        background-image: linear-gradient(to right, rgb(83, 83, 6), rgb(189, 189, 165));
+        border-radius: 90px;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        padding: 0 110px;
+        margin: 0 40px;
+    }
+
+    body section.categories div.categoryBox{
+        border: 5px solid black;
+        position: relative;
+        height: 100%;
+        width: 110%;
+    }
+
+    body section.categories div.categoryBox img{
+        height: 100%;
+        width: 100%;
+    }
+
+    body section.categories div.categoryBox div.overlay{
+        background-color: black;
+        width: 100%;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 30px;
+        position: absolute;
+        top: 70%;
+    }
+
+    body section.categories div.categoryBox img:hover{
+        cursor: pointer;
+    }
+    
+    body section.categories div.categoryBox div.overlaySingle{
+        font-size: 10px;
+    }
+    */
+
+
+    /*
+        Menu Category Items :: Background :: 
+        Algining in Grid
+    */
+    body section.categories{
+        background-image: linear-gradient(to right, rgb(83, 83, 6), rgb(189, 189, 165));
+        border-radius: 80px;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 0 70px;
+        margin: 0 40px;
+        display: grid;
+        grid-template-areas: "a b c"
+                             "d e f"
+                             "g h i"
+                             "j k l";
+        gap: 30px;
+
+    }
+    /*
+        Menu Category Items :: Background :: 
+        Giving Grid Template Area To Category Items 
+        & Single Category Food Items
+    */
+    body section.categories div#category1{
+        grid-area: a;
+        height: 200px;
+    }
+    body section.categories div#category2{
+        grid-area: b;
+        height: 200px;
+    }
+    body section.categories div#category3{
+        grid-area: c;
+        height: 200px;
+    }
+    body section.categories div#category4{
+        grid-area: d;
+        height: 200px;
+    }
+    body section.categories div#category5{
+        grid-area: e;
+        height: 200px;
+    }
+    body section.categories div#category6{
+        grid-area: f;
+        height: 200px;
+    }
+    body section.categories div#category7{
+        grid-area: g;
+        height: 200px;
+    }
+    body section.categories div#category8{
+        grid-area: h;
+        height: 200px;
+    }
+    body section.categories div#category9{
+        grid-area: i;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    body section.categories div#category10{
+        grid-area: j;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    body section.categories div#category11{
+        grid-area: k;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    body section.categories div#category12{
+        grid-area: l;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    /*
+        Menu Category Items :: Background :: 
+        Making Category Box :: Aligning Size
+    */
+    body section.categories div.categoryBox{
+        margin-top: 10px;
+        border: 5px solid black;
+        position: relative;
+        height: 100%;
+        width: 110%;
+    }
+    /*
+        Menu Category Items :: Background :: 
+        Making Category Box :: Aligning Image Placed
+    */
+    body section.categories div.categoryBox img{
+        height: 100%;
+        width: 100%;
+    }
+    /*
+        Menu Category Items :: Background :: 
+        Making Category Box :: Placing Overlay 
+        On Category box & Styling
+    */
+    body section.categories div.categoryBox div.overlay{
+        background-color: black;
+        width: 100%;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 20px;
+        position: absolute;
+        top: 70%;
+    }
+    /*
+        Menu Category Items :: Background :: 
+        Making Category Box :: Image Placed :: Hover
+    */
+    body section.categories div.categoryBox img:hover{
+        cursor: pointer;
+    }
+    /*
+        Menu Category Items :: Background :: 
+        Making Category Box :: Placing Overlay 
+        On Category box & Styling Single Category 
+        Food Items Overlay Text
+    */
+    body section.categories div.categoryBox div.overlaySingle{
+        font-size: 10px;
+
+    }
+
+    /*
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+                       3rd Part :: Footer
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    */
+    /*
+        Footer :: Background
+    */
+    body footer#foot{
+        background-image: linear-gradient(to right, rgb(83, 83, 6), rgb(189, 189, 165));
+    }
+    /*
+        Body :: 3rd Part :: 
+        Aligning Footer Items 
+        Side by side
+    */
+    body footer#foot div.footerFlex{
+        display: flex;
+        justify-content: space-around;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Left Side :: Address Placing
+    */
+    body footer#foot div.footerFlex div#address{
+        margin: 0 0 10px 0;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Left Side :: Address :: Content ::
+        Styling Address
+    */
+    body footer#foot div.footerFlex div#address div.area p{
+        margin-top: 25px;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Mid Side :: Map :: Container
+    */
+    body footer#foot div.footerFlex div#map div#mapcontainer{
+        margin: 10px 0 10px 40px;
+        border: 5px solid black;
+        height: 200px;
+        width: 300px;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social Placing
+    */
+    body footer#foot div.footerFlex div#social{
+        margin: 20px 20px 20px 20px;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social ::
+        Styling list Elements
+    */
+    body footer#foot div.footerFlex div#social ul{
+        list-style: none;
+        text-align: center;
+        line-height: 60px;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social ::
+        Content
+    */
+    body footer#foot div.footerFlex div#social ul li a{
+        text-decoration: none;
+        width: 20%;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social ::
+        Icons
+    */
+    body footer#foot div.footerFlex div#social ul li i{
+        width: 17%;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+
+
+}
+   
+
+
+
+@media (min-width: 546px) and (max-width: 768px){
+    /*
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+                       1st Part :: Header
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    */
+    /*
+        Header :: Background :: 
+        Aligning & styling
+    */
+    body header#head{
+        background-image: url('images&videos/fruit\ 2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        position: relative;
+    }
+    /*
+        Header :: Navbar ::
+        Aligning
+    */
+    body header#head nav#navbar ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+    /*
+        Header :: Navbar ::
+        ul :: li :: Aligning
+    */
+    body header#head nav#navbar ul li{
+        margin: 5px 20px 0 20px;
+    }
+    /*
+        Header :: Navbar ::
+        ul :: li :: a :: Styling
+    */
+    body header#head nav#navbar ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+        font-family: monospace;
+    }
+    /*
+        Header :: Navbar ::
+        ul :: li :: a :: hover
+    */
+    body header#head nav#navbar ul li a:hover{
+        opacity: 0.7;
+        text-decoration: underline;
+    }
+    /*
+        Header :: Name :: 
+        Algning and Styling
+    */
+    body header#head h1{
+        font-family: cursive;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 50px;
+        color: black;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        color: rgb(53, 53, 8);
+    }
+    /*
+        Header :: Button :: 
+        Algning and Styling
+    */
+    body header#head button a{
+        background-color: olive;
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+        border-radius: 10px;
+        padding: 2px 8px;
+        cursor: pointer;
+        position: absolute;
+        top: 48%;
+        left: 25%;
+    }
+    /*
+        Header :: Button :: 
+        Hover
+    */
+    body header#head button a:hover{
+        color: gold;
+    }
+    /*
+        Header :: Description :: p
+    */
+    body header#head p{
+        position: absolute;
+        top: 65%;
+        left: 25%;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    /*
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+                       2nd Part :: Menu Category Items
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    */
+    /*
+    body section.categories{
+        background-image: linear-gradient(to right, rgb(83, 83, 6), rgb(189, 189, 165));
+        border-radius: 90px;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        padding: 0 110px;
+        margin: 0 40px;
+    }
+
+    body section.categories div.categoryBox{
+        border: 5px solid black;
+        position: relative;
+        height: 100%;
+        width: 110%;
+    }
+
+    body section.categories div.categoryBox img{
+        height: 100%;
+        width: 100%;
+    }
+
+    body section.categories div.categoryBox div.overlay{
+        background-color: black;
+        width: 100%;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 30px;
+        position: absolute;
+        top: 70%;
+    }
+
+    body section.categories div.categoryBox img:hover{
+        cursor: pointer;
+    }
+    
+    body section.categories div.categoryBox div.overlaySingle{
+        font-size: 10px;
+    }
+    */
+
+
+    /*
+        Menu Category Items :: Background :: 
+        Algining in Grid
+    */
+    body section.categories{
+        background-image: linear-gradient(to right, rgb(83, 83, 6), rgb(189, 189, 165));
+        border-radius: 60px;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 0 60px;
+        margin: 0 40px;
+        display: grid;
+        grid-template-areas: "a b"
+                             "c d"
+                             "e f"
+                             "g h"
+                             "i j"
+                             "k l";
+        gap: 30px;
+
+    }
+    /*
+        Menu Category Items :: Background :: 
+        Giving Grid Template Area To Category Items 
+        & Single Category Food Items
+    */
+    body section.categories div#category1{
+        grid-area: a;
+        height: 200px;
+    }
+    body section.categories div#category2{
+        grid-area: b;
+        height: 200px;
+    }
+    body section.categories div#category3{
+        grid-area: c;
+        height: 200px;
+    }
+    body section.categories div#category4{
+        grid-area: d;
+        height: 200px;
+    }
+    body section.categories div#category5{
+        grid-area: e;
+        height: 200px;
+    }
+    body section.categories div#category6{
+        grid-area: f;
+        height: 200px;
+    }
+    body section.categories div#category7{
+        grid-area: g;
+        height: 200px;
+    }
+    body section.categories div#category8{
+        grid-area: h;
+        height: 200px;
+    }
+    body section.categories div#category9{
+        grid-area: i;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    body section.categories div#category10{
+        grid-area: j;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    body section.categories div#category11{
+        grid-area: k;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    body section.categories div#category12{
+        grid-area: l;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    /*
+        Menu Category Items :: Background :: 
+        Making Category Box :: Aligning Size
+    */
+    body section.categories div.categoryBox{
+        margin-top: 10px;
+        border: 5px solid black;
+        position: relative;
+        height: 100%;
+        width: 110%;
+    }
+    /*
+        Menu Category Items :: Background :: 
+        Making Category Box :: Aligning Image Placed
+    */
+    body section.categories div.categoryBox img{
+        height: 100%;
+        width: 100%;
+    }
+    /*
+        Menu Category Items :: Background :: 
+        Making Category Box :: Placing Overlay 
+        On Category box & Styling
+    */
+    body section.categories div.categoryBox div.overlay{
+        background-color: black;
+        width: 100%;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 20px;
+        position: absolute;
+        top: 70%;
+    }
+    /*
+        Menu Category Items :: Background :: 
+        Making Category Box :: Image Placed :: Hover
+    */
+    body section.categories div.categoryBox img:hover{
+        cursor: pointer;
+    }
+    /*
+        Menu Category Items :: Background :: 
+        Making Category Box :: Placing Overlay 
+        On Category box & Styling Single Category 
+        Food Items Overlay Text
+    */
+    body section.categories div.categoryBox div.overlaySingle{
+        font-size: 10px;
+
+    }
+
+    /*
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+                       3rd Part :: Footer
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    */
+    /*
+        Footer :: Background
+    */
+    body footer#foot{
+        background-image: linear-gradient(to right, rgb(83, 83, 6), rgb(189, 189, 165));
+    }
+    /*
+        Body :: 3rd Part :: 
+        Left Side :: Address Placing
+    */
+    body footer#foot div.footerFlex div#address{
+        margin: 0 0 10px 0;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Left Side :: Address :: Content ::
+        Styling Address
+    */
+    body footer#foot div.footerFlex div#address div.area p{
+        margin-top: 10px;
+        font-size: 20px;
+        color: whitesmoke;
+        text-align: center;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Mid Side :: Map :: Container
+    */
+    body footer#foot div.footerFlex div#map div#mapcontainer{
+        margin: 10px auto;
+        border: 5px solid black;
+        height: 200px;
+        width: 300px;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social Placing
+    */
+    body footer#foot div.footerFlex div#social{
+        margin: 20px 20px 20px 30px;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social ::
+        Styling list Elements
+    */
+    body footer#foot div.footerFlex div#social ul{
+        list-style: none;
+        text-align: center;
+        line-height: 40px;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social ::
+        Content
+    */
+    body footer#foot div.footerFlex div#social ul li a{
+        text-decoration: none;
+        width: 25%;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social ::
+        Icons
+    */
+    body footer#foot div.footerFlex div#social ul li i{
+        width: 5%;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+
+
+}
+
+
+
+
+@media (min-width: 445px) and (max-width: 546px){
+    /*
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+                       1st Part :: Header
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    */
+    /*
+        Header :: Background :: 
+        Aligning & styling
+    */
+    body header#head{
+        background-image: url('images&videos/fruit\ 2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        position: relative;
+    }
+    /*
+        Header :: Navbar ::
+        Aligning
+    */
+    body header#head nav#navbar ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+    /*
+        Header :: Navbar ::
+        ul :: li :: Aligning
+    */
+    body header#head nav#navbar ul li{
+        margin: 5px 20px 0 20px;
+    }
+    /*
+        Header :: Navbar ::
+        ul :: li :: a :: Styling
+    */
+    body header#head nav#navbar ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+        font-family: monospace;
+    }
+    /*
+        Header :: Navbar ::
+        ul :: li :: a :: hover
+    */
+    body header#head nav#navbar ul li a:hover{
+        opacity: 0.7;
+        text-decoration: underline;
+    }
+    /*
+        Header :: Name :: 
+        Algning and Styling
+    */
+    body header#head h1{
+        font-family: cursive;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 40px;
+        color: black;
+        position: absolute;
+        top: 20%;
+        left: 25%;
+        color: rgb(53, 53, 8);
+    }
+    /*
+        Header :: Button :: 
+        Algning and Styling
+    */
+    body header#head button a{
+        background-color: olive;
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+        border-radius: 10px;
+        padding: 2px 8px;
+        cursor: pointer;
+        position: absolute;
+        top: 45%;
+        left: 25%;
+    }
+    /*
+        Header :: Button :: 
+        Hover
+    */
+    body header#head button a:hover{
+        color: gold;
+    }
+    /*
+        Header :: Description :: p
+    */
+    body header#head p{
+        position: absolute;
+        top: 62%;
+        left: 25%;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    /*
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+                       2nd Part :: Menu Category Items
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    */
+    body section.categories{
+        background-image: linear-gradient(to right, rgb(83, 83, 6), rgb(189, 189, 165));
+        border-radius: 90px;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 0 110px;
+        margin: 0 10px;
+    }
+
+    body section.categories div.categoryBox{
+        border: 5px solid black;
+        position: relative;
+        height: 90%;
+        width: 100%;
+    }
+
+    body section.categories div.categoryBox img{
+        height: 100%;
+        width: 100%;
+    }
+
+    body section.categories div.categoryBox div.overlay{
+        background-color: black;
+        width: 100%;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 30px;
+        position: absolute;
+        top: 70%;
+    }
+
+    body section.categories div.categoryBox img:hover{
+        cursor: pointer;
+    }
+    
+    body section.categories div.categoryBox div.overlaySingle{
+        font-size: 10px;
+    }
+    /*
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+                       3rd Part :: Footer
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    */
+    /*
+        Footer :: Background
+    */
+    body footer#foot{
+        background-image: linear-gradient(to right, rgb(83, 83, 6), rgb(189, 189, 165));
+    }
+    /*
+        Body :: 3rd Part :: 
+        Left Side :: Address Placing
+    */
+    body footer#foot div.footerFlex div#address{
+        margin: 0 0 10px 0;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Left Side :: Address :: Content ::
+        Styling Address
+    */
+    body footer#foot div.footerFlex div#address div.area p{
+        margin-top: 10px;
+        font-size: 20px;
+        color: whitesmoke;
+        text-align: center;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Mid Side :: Map :: Container
+    */
+    body footer#foot div.footerFlex div#map div#mapcontainer{
+        margin: 10px auto;
+        border: 5px solid black;
+        height: 200px;
+        width: 300px;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social Placing
+    */
+    body footer#foot div.footerFlex div#social{
+        margin: 20px 20px 20px 40px;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social ::
+        Styling list Elements
+    */
+    body footer#foot div.footerFlex div#social ul{
+        list-style: none;
+        text-align: center;
+        line-height: 40px;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social ::
+        Content
+    */
+    body footer#foot div.footerFlex div#social ul li a{
+        text-decoration: none;
+        width: 25%;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social ::
+        Icons
+    */
+    body footer#foot div.footerFlex div#social ul li i{
+        width: 5%;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+
+
+}
+
+
+
+
+@media (max-width: 445px){
+    /*
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+                       1st Part :: Header
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    */
+    /*
+        Header :: Background :: 
+        Aligning & styling
+    */
+    body header#head{
+        background-image: url('images&videos/fruit\ 2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        position: relative;
+    }
+    /*
+        Header :: Navbar ::
+        Aligning
+    */
+    body header#head nav#navbar ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+    /*
+        Header :: Navbar ::
+        ul :: li :: Aligning
+    */
+    body header#head nav#navbar ul li{
+        margin: 5px 20px 0 20px;
+    }
+    /*
+        Header :: Navbar ::
+        ul :: li :: a :: Styling
+    */
+    body header#head nav#navbar ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+        font-family: monospace;
+    }
+    /*
+        Header :: Navbar ::
+        ul :: li :: a :: hover
+    */
+    body header#head nav#navbar ul li a:hover{
+        opacity: 0.7;
+        text-decoration: underline;
+    }
+    /*
+        Header :: Name :: 
+        Algning and Styling
+    */
+    body header#head h1{
+        font-family: cursive;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 40px;
+        color: black;
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        color: rgb(53, 53, 8);
+    }
+    /*
+        Header :: Button :: 
+        Algning and Styling
+    */
+    body header#head button a{
+        background-color: olive;
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+        border-radius: 10px;
+        padding: 2px 8px;
+        cursor: pointer;
+        position: absolute;
+        top: 45%;
+        left: 15%;
+    }
+    /*
+        Header :: Button :: 
+        Hover
+    */
+    body header#head button a:hover{
+        color: gold;
+    }
+    /*
+        Header :: Description :: p
+    */
+    body header#head p{
+        position: absolute;
+        top: 62%;
+        left: 15%;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    /*
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+                       2nd Part :: Menu Category Items
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    */
+    body section.categories{
+        background-image: linear-gradient(to right, rgb(83, 83, 6), rgb(189, 189, 165));
+        border-radius: 90px;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 0 110px;
+        margin: 0 10px;
+    }
+
+    body section.categories div.categoryBox{
+        border: 5px solid black;
+        position: relative;
+        height: 90%;
+        width: 100%;
+    }
+
+    body section.categories div.categoryBox img{
+        height: 100%;
+        width: 100%;
+    }
+
+    body section.categories div.categoryBox div.overlay{
+        background-color: black;
+        width: 100%;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 30px;
+        position: absolute;
+        top: 70%;
+    }
+
+    body section.categories div.categoryBox img:hover{
+        cursor: pointer;
+    }
+    
+    body section.categories div.categoryBox div.overlaySingle{
+        font-size: 10px;
+    }
+    /*
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+                       3rd Part :: Footer
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------
+    */
+    /*
+        Footer :: Background
+    */
+    body footer#foot{
+        background-image: linear-gradient(to right, rgb(83, 83, 6), rgb(189, 189, 165));
+    }
+    /*
+        Body :: 3rd Part :: 
+        Left Side :: Address Placing
+    */
+    body footer#foot div.footerFlex div#address{
+        margin: 0 0 10px 0;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Left Side :: Address :: Content ::
+        Styling Address
+    */
+    body footer#foot div.footerFlex div#address div.area p{
+        margin-top: 10px;
+        font-size: 20px;
+        color: whitesmoke;
+        text-align: center;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Mid Side :: Map :: Container
+    */
+    body footer#foot div.footerFlex div#map div#mapcontainer{
+        margin: 10px auto;
+        border: 5px solid black;
+        height: 200px;
+        width: 300px;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social Placing
+    */
+    body footer#foot div.footerFlex div#social{
+        margin: 20px 20px 20px 40px;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social ::
+        Styling list Elements
+    */
+    body footer#foot div.footerFlex div#social ul{
+        list-style: none;
+        text-align: center;
+        line-height: 40px;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social ::
+        Content
+    */
+    body footer#foot div.footerFlex div#social ul li a{
+        text-decoration: none;
+        width: 25%;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: 3rd Part :: 
+        Right Side :: Social ::
+        Icons
+    */
+    body footer#foot div.footerFlex div#social ul li i{
+        width: 5%;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+
+
+}
+
+
+
+
+
+
+
