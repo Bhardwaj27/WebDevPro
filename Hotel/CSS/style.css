@@ -2238,7 +2238,7 @@
         color: black;
         position: absolute;
         top: 20%;
-        left: 18%;
+        left: 22%;
         color: rgb(53, 53, 8);
     }
     /*
@@ -2272,7 +2272,7 @@
     body header#head p{
         position: absolute;
         top: 60%;
-        left: 22%;
+        left: 20%;
         font-weight: bolder;
     }
 
