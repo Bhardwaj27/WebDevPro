@@ -20,7 +20,7 @@
         enroll button is placed
     */
     body div.background{
-        background-image: url('Images&Videos/Carousel1.jpg');
+        background-image: url('Images&Videos/carousel 1.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         height: 550px;
@@ -76,9 +76,9 @@
         Right side :: Content :: Hover 
     */
     body div.background nav div.navbar div.services ul.items li a:hover{
-        background-color: black;
+        background-color: pink;
         text-align: center;
-        color: pink;
+        color: black;
         font-size: 25px;
         border-radius: 20px;
     }
@@ -87,7 +87,7 @@
     */
     body div.background div.btnknow button{
         position: absolute;
-        top: 65%;
+        top: 60%;
         left: 45%;
         font-size: 25px;
         padding: 5px 10px;
@@ -97,6 +97,21 @@
         color: whitesmoke;
         font-family: cursive;
         cursor: pointer;
+    }
+    /*
+        Body Background Image :: 
+        Enroll Button :: a :: For Styling Text
+    */
+    body div.background div.btnknow button a{
+        color: black;
+        font-family: cursive;
+    }
+    /*
+        Body Background Image :: 
+        Enroll Button :: Hover
+    */
+    body div.background div.btnknow button a:hover{
+        color: pink;
     }
     /*
         Body Background Image :: About
@@ -598,7 +613,7 @@
         enroll button is placed
     */
     body div.background{
-        background-image: url('Images&Videos/Carousel1.jpg');
+        background-image: url('Images&Videos/carousel 1.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         height: 500px;
@@ -686,6 +701,21 @@
         color: whitesmoke;
         font-family: cursive;
         cursor: pointer;
+    }
+    /*
+        Body Background Image :: 
+        Enroll Button :: a :: For Styling Text
+    */
+    body div.background div.btnknow button a{
+        color: black;
+        font-family: cursive;
+    }
+    /*
+        Body Background Image :: 
+        Enroll Button :: Hover
+    */
+    body div.background div.btnknow button a:hover{
+        color: pink;
     }
 
     /*
@@ -957,7 +987,7 @@
         -----------------------------------------------------------------------
     */
     body div.contact{
-        background-image: url('Images&Videos/Contact.jpg');
+        background-image: url('images&videos/Contact.jpg');
         width: 90%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1173,7 +1203,7 @@
         enroll button is placed
     */
     body div.background{
-        background-image: url('Images&Videos/Carousel1.jpg');
+        background-image: url('Images&Videos/carousel 1.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         height: 500px;
@@ -1186,7 +1216,7 @@
     */
     body div.background nav div.navbar{
         justify-content: space-between;
-        height: 105px;
+        height: 110px;
         background-image: linear-gradient(to left, rgba(168, 15, 15, 1), rgb(12, 12, 12));
     }
     /*
@@ -1195,9 +1225,11 @@
         Logo Name and styling
     */
     body div.background nav div.navbar div.logo div{
-        padding: 20px 15px 0 15px;
+        padding: 10px 15px 0 15px;
+        margin-bottom: 25px;
         height: 40px;
-        font-size: 30px;
+        font-size: 50px;
+        text-align: center;
         font-style: italic;
         font-weight: bold;
         color: whitesmoke;
@@ -1208,6 +1240,7 @@
     */
     body div.background nav div.navbar div.services ul{
         display: flex;
+        justify-content: space-around;
         list-style: none;
         margin-top: 10px;
     }
@@ -1262,6 +1295,21 @@
         color: whitesmoke;
         font-family: cursive;
         cursor: pointer;
+    }
+    /*
+        Body Background Image :: 
+        Enroll Button :: a :: For Styling Text
+    */
+    body div.background div.btnknow button a{
+        color: black;
+        font-family: cursive;
+    }
+    /*
+        Body Background Image :: 
+        Enroll Button :: Hover
+    */
+    body div.background div.btnknow button a:hover{
+        color: pink;
     }
 
     /*
@@ -1555,7 +1603,7 @@
         -----------------------------------------------------------------------
     */
     body div.contact{
-        background-image: url('Images&Videos/Contact.jpg');
+        background-image: url('images&videos/Contact.jpg');
         width: 100%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1659,7 +1707,6 @@
         color: pink;  
     }
 
-
     /*
         -----------------------------------------------------------------------
         -----------------------------------------------------------------------
@@ -1675,19 +1722,10 @@
     }
     /*
         Body :: 7th Part :: Footer :: 
-        Aligning Footer Items 
-        Side by side
-    */
-    body footer.foot div.footerFlex{
-        display: flex;
-    }
-    /*
-        Body :: 7th Part :: Footer :: 
         Left Side :: Address Placing
     */
     body footer.foot div.footerFlex div#address{
         line-height: 10px;
-        width: 66%;
         margin: 20px 0px 20px 20px;
     }
     /*
@@ -1717,7 +1755,6 @@
     */
     body footer.foot div.footerFlex div#social{
         line-height: 25px;
-        width: 30%;
         margin: 20px 20px 20px 30px;
     }
     /*
@@ -1728,7 +1765,7 @@
     body footer.foot div.footerFlex div#social ul{
         list-style: none;
         text-align: center;
-        line-height: 80px;
+        line-height: 60px;
     }
     /*
         Body :: 7th Part :: Footer :: 
@@ -1737,7 +1774,6 @@
     */
     body footer.foot div.footerFlex div#social ul li a{
         text-decoration: none;
-        width: 25%;
         font-size: 20px;
         color: whitesmoke;
     }
@@ -1747,8 +1783,7 @@
         Icons
     */
     body footer.foot div.footerFlex div#social ul li i{
-        width: 15%;
-        font-size: 25px;
+        font-size: 20px;
         color: whitesmoke;
     }
 
@@ -1773,7 +1808,7 @@
         enroll button is placed
     */
     body div.background{
-        background-image: url('Images&Videos/Carousel1.jpg');
+        background-image: url('Images&Videos/carousel 1.jpg');
         background-size: cover;
         height: 450px;
         position: relative;
@@ -1786,7 +1821,7 @@
     body div.background nav div.navbar{
         height: 135px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         background-image: linear-gradient(to left, rgba(168, 15, 15, 1), rgb(12, 12, 12));
     }
     /*
@@ -1795,12 +1830,13 @@
         Logo Name and styling
     */
     body div.background nav div.navbar div.logo div{
-        padding: 20px 0 0 15px;
+        padding: 10px 0 0 15px;
         height: 40px;
-        font-size: 30px;
+        font-size: 40px;
         font-style: italic;
         font-weight: bold;
         color: whitesmoke;
+        text-align: center;
     }
     /*
         Body Background Image :: Navbar ::
@@ -1809,7 +1845,6 @@
     body div.background nav div.navbar div.services ul{
         list-style: none;
         margin-top: 7px;
-        margin-right: 20px;
     }
     /*
         Body Background Image :: Navbar ::
@@ -1818,11 +1853,10 @@
     body div.background nav div.navbar div.services ul.items li a{
         text-decoration: none;
         color: black;
-        padding: 3px 8px;
-        font-size: 18px;
         text-align: center;
         color: whitesmoke;
         line-height: 25px;
+        padding: 5px;
     }
     /*
         Body Background Image :: Navbar ::
@@ -1851,8 +1885,8 @@
     */
     body div.background div.btnknow button{
         position: absolute;
-        top: 70%;
-        left: 30%;
+        top: 68%;
+        left: 32%;
         font-size: 20px;
         padding: 5px 10px;
         background-image: linear-gradient(to left, rgba(168, 15, 15, 1), rgb(12, 12, 12));
@@ -1861,6 +1895,21 @@
         color: whitesmoke;
         font-family: cursive;
         cursor: pointer;
+    }
+    /*
+        Body Background Image :: 
+        Enroll Button :: a :: For Styling Text
+    */
+    body div.background div.btnknow button a{
+        color: black;
+        font-family: cursive;
+    }
+    /*
+        Body Background Image :: 
+        Enroll Button :: Hover
+    */
+    body div.background div.btnknow button a:hover{
+        color: pink;
     }
 
     /*
@@ -2127,7 +2176,7 @@
         -----------------------------------------------------------------------
     */
     body div.contact{
-        background-image: url('Images&Videos/Contact.jpg');
+        background-image: url('images&videos/Contact.jpg');
         width: 100%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -2244,19 +2293,10 @@
     }
     /*
         Body :: 7th Part :: Footer :: 
-        Aligning Footer Items 
-        Side by side
-    */
-    body footer.foot div.footerFlex{
-        display: flex;
-    }
-    /*
-        Body :: 7th Part :: Footer :: 
         Left Side :: Address Placing
     */
     body footer.foot div.footerFlex div#address{
         line-height: 10px;
-        width: 66%;
         margin: 20px 0px 20px 10px;
     }
     /*
@@ -2286,7 +2326,6 @@
     */
     body footer.foot div.footerFlex div#social{
         line-height: 25px;
-        width: 30%;
         margin: 20px 0 20px 0;
     }
     /*

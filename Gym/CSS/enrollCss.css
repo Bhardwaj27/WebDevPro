@@ -3,13 +3,22 @@
     padding: 0px;
 }
 
-
+@media (min-width: 992px) {
     /*
-    Body :: Styling h1 Heading
+        Body :: Styling h1 Heading
     */
     body{
-        background-image: linear-gradient(to left, rgba(168, 15, 15, 1), rgb(12, 12, 12));
+        background-image: linear-gradient(to left, rgb(133, 51, 51), rgb(0, 0, 0));
     }
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: Navbar
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
     /*
         Body Background Image :: Navbar ::
         Placing Navbar :: Flex and 
@@ -67,12 +76,11 @@
         font-size: 25px;
         border-radius: 20px;
     }
-
     /*
         -----------------------------------------------------------------------
         -----------------------------------------------------------------------
         -----------------------------------------------------------------------
-                            Body :: 3rd part :: Cards ::
+                            Body :: :: Cards ::
                             Services Offered Section ::  
                             Background
         -----------------------------------------------------------------------
@@ -80,14 +88,13 @@
         -----------------------------------------------------------------------
     */
     body div.cards{
-        background-image: linear-gradient(to left, rgba(168, 15, 15, 1), rgb(12, 12, 12));
         height: 400px;
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
     /*
-        Body :: 3rd part :: Cards ::
+        Body :: Cards ::
         Services Offered Section ::  
         Styling Card 1
     */
@@ -101,7 +108,7 @@
         background-image: linear-gradient(to right, rgb(7, 7, 17), rgb(54, 131, 131));
     }
     /*
-        Body :: 3rd part :: Cards ::
+        Body :: Cards ::
         Services Offered Section ::  
         Styling Card 1 Image
     */
@@ -110,7 +117,7 @@
         height: 150px;
     }
     /*
-        Body :: 3rd part :: Cards ::
+        Body :: Cards ::
         Services Offered Section ::  
         Styling Card 2
     */
@@ -124,7 +131,7 @@
         background-image: linear-gradient(to right, rgb(7, 7, 17), rgb(54, 131, 131));
     }
     /*
-        Body :: 3rd part :: Cards ::
+        Body :: Cards ::
         Services Offered Section ::  
         Styling Card 2 Image
     */
@@ -133,7 +140,7 @@
         height: 150px;
     }
     /*
-        Body :: 3rd part :: Cards ::
+        Body :: Cards ::
         Services Offered Section ::  
         Styling Card 3
     */
@@ -147,7 +154,7 @@
         background-image: linear-gradient(to right, rgb(7, 7, 17), rgb(54, 131, 131));
     }
     /*
-        Body :: 3rd part :: Cards ::
+        Body :: Cards ::
         Services Offered Section ::  
         Styling Card 3 Image
     */
@@ -156,7 +163,7 @@
         height: 150px;
     }
     /*
-        Body :: 3rd part :: Cards ::
+        Body :: Cards ::
         Services Offered Section ::  
         Styling Card About
     */
@@ -164,12 +171,11 @@
         text-align: center;
         margin-top: 20px;
     }
-
     /*
         -----------------------------------------------------------------------
         -----------------------------------------------------------------------
         -----------------------------------------------------------------------
-                                Body :: 6th part :: 
+                                Body :: Contact Form ::
                                 Adding contact Form :: 
                                 Background Image
         -----------------------------------------------------------------------
@@ -185,7 +191,7 @@
         margin-right: auto;
     }
     /*
-        Body :: 6th part :: 
+        Body :: Contact Form ::
         Styling form :: Inputs
     */
     body div.contact form input{
@@ -199,7 +205,7 @@
         margin-right: 10px;
     }
     /*
-        Body :: 6th part :: 
+        Body :: Contact Form ::
         Styling form :: Select
     */
     body div.contact form select{
@@ -212,7 +218,7 @@
         color: rgb(122, 40, 7);
     }
     /*
-        Body :: 6th part :: 
+        Body :: Contact Form ::
         Styling form :: TextAreaa
     */
     body div.contact form textarea{
@@ -225,7 +231,7 @@
         margin-right: 10px;
     }
     /*
-        Body :: 6th part :: 
+        Body :: Contact Form ::
         Styling form :: Span ::
         for Male Female and @
     */
@@ -238,14 +244,14 @@
         color: rgb(122, 40, 7);
     }
     /*
-        Body :: 6th part :: 
+        Body :: Contact Form ::
         Styling form :: Icons
     */
     body div.contact form i.fa{
         color: rgb(122, 40, 7);
     }
     /*
-        Body :: 6th part :: 
+        Body :: Contact Form ::
         Styling form :: Changing ::
         PlaceHolder Color
     */
@@ -275,20 +281,18 @@
         border-radius: 10px;   
     }
     /*
-        Body :: 6th part :: 
+        Body :: Contact Form :: 
         Styling form :: Adding Hover Effect ::
         Button
     */
     body div.contact form button:hover{
         color: pink;  
     }
-
-
     /*
         -----------------------------------------------------------------------
         -----------------------------------------------------------------------
         -----------------------------------------------------------------------
-                            Body :: 7th Part :: 
+                            Body :: Footer ::
                             Adding Background 
         -----------------------------------------------------------------------
         -----------------------------------------------------------------------
@@ -298,7 +302,7 @@
         background-image: linear-gradient(to right, rgb(95, 19, 19), rgb(90, 44, 44));
     }
     /*
-        Body :: 7th Part :: 
+        Body :: Footer ::
         Aligning Footer Items 
         Side by side
     */
@@ -306,7 +310,7 @@
         display: flex;
     }
     /*
-        Body :: 7th Part :: 
+        Body :: Footer :: 
         Left Side :: Address Placing
     */
     body footer.foot div.footerFlex div#address{
@@ -315,7 +319,7 @@
         margin: 20px 20px 20px 70px;
     }
     /*
-        Body :: 7th Part :: 
+        Body :: Footer :: 
         Left Side :: Address :: Content ::
         Aligning Side by Side
     */
@@ -323,7 +327,7 @@
         display: flex;
     }
     /*
-        Body :: 7th Part :: 
+        Body :: Footer :: 
         Left Side :: Address :: Content ::
         Styling Address
     */
@@ -335,7 +339,7 @@
         color: whitesmoke;
     }
     /*
-        Body :: 7th Part :: 
+        Body :: Footer ::
         Right Side :: Social Placing
     */
     body footer.foot div.footerFlex div#social{
@@ -344,7 +348,7 @@
         margin: 20px 20px 20px 70px;
     }
     /*
-        Body :: 7th Part :: 
+        Body :: Footer :: 
         Right Side :: Social ::
         Styling list Elements
     */
@@ -354,7 +358,7 @@
         line-height: 60px;
     }
     /*
-        Body :: 7th Part :: 
+        Body :: Footer :: 
         Right Side :: Social ::
         Content
     */
@@ -365,7 +369,7 @@
         color: whitesmoke;
     }
     /*
-        Body :: 7th Part :: 
+        Body :: Footer ::
         Right Side :: Social ::
         Icons
     */
@@ -374,6 +378,1523 @@
         font-size: 25px;
         color: whitesmoke;
     }
+
+
+}
+
+
+
+    
+@media (min-width: 768px) and  (max-width: 992px){
+    /*
+        Body :: Styling h1 Heading
+    */
+    body{
+        background-image: linear-gradient(to left, rgb(133, 51, 51), rgb(0, 0, 0));
+    }
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: Navbar
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    /*
+        Body Background Image :: Navbar ::
+        Placing Navbar :: Flex and 
+        aligining contect
+    */
+    body nav div.navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Left side :: Content :: 
+        Logo Name and styling
+    */
+    body nav div.navbar div.logo div{
+        padding: 20px 15px 0 15px;
+        height: 80px;
+        font-size: 40px;
+        font-style: italic;
+        font-weight: bold;
+        color: whitesmoke;
+        border-radius: 40%;
+        background-image: linear-gradient(to left, rgb(117, 23, 23), rgb(12, 12, 12));
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Aligning content side by side
+    */
+    body nav div.navbar div.services ul{
+        display: flex;
+        list-style: none;
+        margin-top: 10px;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Content :: Styling 
+    */
+    body nav div.navbar div.services ul.items li a{
+        text-decoration: none;
+        color: black;
+        margin-right: 10px;
+        padding: 5px 12px;
+        font-size: 23px;
+        text-align: center;
+        color: whitesmoke;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Content :: Hover 
+    */
+    body nav div.navbar div.services ul.items li a:hover{
+        background-color: black;
+        text-align: center;
+        color: pink;
+        font-size: 23px;
+        border-radius: 20px;
+    }
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: :: Cards ::
+                            Services Offered Section ::  
+                            Background
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.cards{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 1
+    */
+    body div.cards div#card1{
+        width: 25%;
+        height: 320px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(3deg);
+        border: 1px solid black;
+        background-image: linear-gradient(to right, rgb(7, 7, 17), rgb(54, 131, 131));
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 1 Image
+    */
+    body div.cards div#card1 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 2
+    */
+    body div.cards div#card2{
+        width: 25%;
+        height: 320px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(-2deg);
+        border: 1px solid black;
+        background-image: linear-gradient(to right, rgb(7, 7, 17), rgb(54, 131, 131));
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 2 Image
+    */
+    body div.cards div#card2 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 3
+    */
+    body div.cards div#car3{
+        width: 25%;
+        height: 320px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(5deg);
+        border: 1px solid black;
+        background-image: linear-gradient(to right, rgb(7, 7, 17), rgb(54, 131, 131));
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 3 Image
+    */
+    body div.cards div#car3 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card About
+    */
+    body div.cards div.cardsItem div.cardAbout{
+        text-align: center;
+        margin-top: 20px;
+    }
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                                Body :: Contact Form ::
+                                Adding contact Form :: 
+                                Background Image
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.contact{
+        background-image: url('Images&Videos/Contact.jpg');
+        width: 90%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Inputs
+    */
+    body div.contact form input{
+        background: none;
+        border: 0px;
+        font-size: 25px;
+        font-weight: bolder;
+        border-radius: 5px;
+        border-bottom: 5px solid rgb(122, 40, 7);
+        color: rgb(122, 40, 7);
+        margin-right: 10px;
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Select
+    */
+    body div.contact form select{
+        background: none;
+        border: 0px;
+        font-size: 20px;
+        font-weight: bolder;
+        border-radius: 5px;
+        border-bottom: 5px solid rgb(122, 40, 7);
+        color: rgb(122, 40, 7);
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: TextAreaa
+    */
+    body div.contact form textarea{
+        background: none;
+        border: 2px solid rgb(122, 40, 7);
+        font-size: 25px;
+        font-weight: bolder;
+        border-radius: 5px;
+        color: rgb(122, 40, 7);
+        margin-right: 10px;
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Span ::
+        for Male Female and @
+    */
+    body div.contact form span{
+        background: none;
+        border: 0px;
+        font-size: 20px;
+        margin-right: 10px;
+        font-weight: bolder;
+        color: rgb(122, 40, 7);
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Icons
+    */
+    body div.contact form i.fa{
+        color: rgb(122, 40, 7);
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Changing ::
+        PlaceHolder Color
+    */
+    ::placeholder{ /* Firefox */
+        color: rgb(110, 18, 18);
+        text-align: center;
+    }
+    :-ms-input-placeholder{ /* Internet Explorer 10-11 */
+        color: rgb(110, 18, 18);
+        text-align: center;
+    }
+    ::-ms-input-placeholder{ /* Microsoft Edge */
+        color: rgb(110, 18, 18);
+        text-align: center;
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Button
+    */
+    body div.contact form button{
+        font-size: 25px;
+        font-weight: bolder;
+        background-color: black;
+        color: whitesmoke;
+        cursor: pointer;
+        padding: 5px 10px;
+        border-radius: 10px;   
+    }
+    /*
+        Body :: Contact Form :: 
+        Styling form :: Adding Hover Effect ::
+        Button
+    */
+    body div.contact form button:hover{
+        color: pink;  
+    }
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: Footer ::
+                            Adding Background 
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body footer.foot{
+        background-image: linear-gradient(to right, rgb(95, 19, 19), rgb(90, 44, 44));
+    }
+    /*
+        Body :: Footer ::
+        Aligning Footer Items 
+        Side by side
+    */
+    body footer.foot div.footerFlex{
+        display: flex;
+    }
+    /*
+        Body :: Footer :: 
+        Left Side :: Address Placing
+    */
+    body footer.foot div.footerFlex div#address{
+        line-height: 25px;
+        width: 66%;
+        margin: 20px 20px 20px 70px;
+    }
+    /*
+        Body :: Footer :: 
+        Left Side :: Address :: Content ::
+        Aligning Side by Side
+    */
+    body footer.foot div.footerFlex div#address div.area{
+        display: flex;
+    }
+    /*
+        Body :: Footer :: 
+        Left Side :: Address :: Content ::
+        Styling Address
+    */
+    body footer.foot div.footerFlex div#address div.area p{
+        width: 25%;
+        margin-top: 25px;
+        margin-right: 10px;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: Footer ::
+        Right Side :: Social Placing
+    */
+    body footer.foot div.footerFlex div#social{
+        line-height: 25px;
+        width: 30%;
+        margin: 20px 20px 20px 70px;
+    }
+    /*
+        Body :: Footer :: 
+        Right Side :: Social ::
+        Styling list Elements
+    */
+    body footer.foot div.footerFlex div#social ul{
+        list-style: none;
+        text-align: center;
+        line-height: 60px;
+    }
+    /*
+        Body :: Footer :: 
+        Right Side :: Social ::
+        Content
+    */
+    body footer.foot div.footerFlex div#social ul li a{
+        text-decoration: none;
+        width: 25%;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: Footer ::
+        Right Side :: Social ::
+        Icons
+    */
+    body footer.foot div.footerFlex div#social ul li i{
+        width: 15%;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+
+
+}
+
+
+
+
+@media (min-width: 546px) and  (max-width: 768px){
+    /*
+        Body :: Styling h1 Heading
+    */
+    body{
+        background-image: linear-gradient(to left, rgb(133, 51, 51), rgb(0, 0, 0));
+    }
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: Navbar
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    /*
+        Body Background Image :: Navbar ::
+        Left side :: Content :: 
+        Logo Name and styling
+    */
+    body nav div.navbar div.logo div{
+        padding: 10px 15px 20px 15px;
+        height: 80px;
+        font-size: 80px;
+        font-style: italic;
+        font-weight: bold;
+        color: whitesmoke;
+        text-align: center;
+        border-radius: 40%;
+        background-image: linear-gradient(to left, rgb(117, 23, 23), rgb(12, 12, 12));
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Aligning content side by side
+    */
+    body nav div.navbar div.services ul{
+        display: flex;
+        list-style: none;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Content :: Styling 
+    */
+    body nav div.navbar div.services ul.items li a{
+        text-decoration: none;
+        color: black;
+        margin: 0 5px;
+        padding: 5px 8px;
+        font-size: 23px;
+        text-align: center;
+        color: whitesmoke;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Content :: Hover 
+    */
+    body nav div.navbar div.services ul.items li a:hover{
+        background-color: black;
+        text-align: center;
+        color: pink;
+        font-size: 28px;
+        border-radius: 20px;
+    }
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: :: Cards ::
+                            Services Offered Section ::  
+                            Background
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 1
+    */
+    body div.cards div#card1{
+        width: 80%;
+        margin: 0 auto 40px auto;
+        height: 280px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(3deg);
+        border: 1px solid black;
+        background-image: linear-gradient(to right, rgb(7, 7, 17), rgb(54, 131, 131));
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 1 Image
+    */
+    body div.cards div#card1 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 2
+    */
+    body div.cards div#card2{
+        width: 80%;
+        margin: 0 auto 40px auto;
+        height: 280px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(-2deg);
+        border: 1px solid black;
+        background-image: linear-gradient(to right, rgb(7, 7, 17), rgb(54, 131, 131));
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 2 Image
+    */
+    body div.cards div#card2 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 3
+    */
+    body div.cards div#car3{
+        width: 80%;
+        margin: 50px auto 40px auto;
+        height: 280px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(5deg);
+        border: 1px solid black;
+        background-image: linear-gradient(to right, rgb(7, 7, 17), rgb(54, 131, 131));
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 3 Image
+    */
+    body div.cards div#car3 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card About
+    */
+    body div.cards div.cardsItem div.cardAbout{
+        text-align: center;
+        margin-top: 20px;
+    }
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                                Body :: Contact Form ::
+                                Adding contact Form :: 
+                                Background Image
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.contact{
+        background-image: url('Images&Videos/Contact.jpg');
+        width: 90%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Inputs
+    */
+    body div.contact form input{
+        background: none;
+        border: 0px;
+        font-size: 25px;
+        font-weight: bolder;
+        border-radius: 5px;
+        border-bottom: 5px solid rgb(122, 40, 7);
+        color: rgb(122, 40, 7);
+        margin-right: 10px;
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Select
+    */
+    body div.contact form select{
+        background: none;
+        border: 0px;
+        font-size: 20px;
+        font-weight: bolder;
+        border-radius: 5px;
+        border-bottom: 5px solid rgb(122, 40, 7);
+        color: rgb(122, 40, 7);
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: TextAreaa
+    */
+    body div.contact form textarea{
+        background: none;
+        border: 2px solid rgb(122, 40, 7);
+        font-size: 25px;
+        font-weight: bolder;
+        border-radius: 5px;
+        color: rgb(122, 40, 7);
+        margin-right: 10px;
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Span ::
+        for Male Female and @
+    */
+    body div.contact form span{
+        background: none;
+        border: 0px;
+        font-size: 20px;
+        margin-right: 10px;
+        font-weight: bolder;
+        color: rgb(122, 40, 7);
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Icons
+    */
+    body div.contact form i.fa{
+        color: rgb(122, 40, 7);
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Changing ::
+        PlaceHolder Color
+    */
+    ::placeholder{ /* Firefox */
+        color: rgb(110, 18, 18);
+        text-align: center;
+    }
+    :-ms-input-placeholder{ /* Internet Explorer 10-11 */
+        color: rgb(110, 18, 18);
+        text-align: center;
+    }
+    ::-ms-input-placeholder{ /* Microsoft Edge */
+        color: rgb(110, 18, 18);
+        text-align: center;
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Button
+    */
+    body div.contact form button{
+        font-size: 25px;
+        font-weight: bolder;
+        background-color: black;
+        color: whitesmoke;
+        cursor: pointer;
+        padding: 5px 10px;
+        border-radius: 10px;   
+    }
+    /*
+        Body :: Contact Form :: 
+        Styling form :: Adding Hover Effect ::
+        Button
+    */
+    body div.contact form button:hover{
+        color: pink;  
+    }
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: Footer ::
+                            Adding Background 
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body footer.foot{
+        background-image: linear-gradient(to right, rgb(95, 19, 19), rgb(90, 44, 44));
+    }
+    /*
+        Body :: Footer :: 
+        Left Side :: Address Placing
+    */
+    body footer.foot div.footerFlex div#address{
+        line-height: 25px;
+        width: 66%;
+        margin: 20px auto 20px auto;
+    }
+    /*
+        Body :: Footer :: 
+        Left Side :: Address :: Content ::
+        Aligning Side by Side
+    */
+    body footer.foot div.footerFlex div#address div.area{
+        display: flex;
+    }
+    /*
+        Body :: Footer :: 
+        Left Side :: Address :: Content ::
+        Styling Address
+    */
+    body footer.foot div.footerFlex div#address div.area p{
+        width: 25%;
+        margin-top: 25px;
+        margin-right: 10px;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: Footer ::
+        Right Side :: Social Placing
+    */
+    body footer.foot div.footerFlex div#social{
+        line-height: 25px;
+        width: 30%;
+        margin: 20px auto 20px auto;
+    }
+    /*
+        Body :: Footer :: 
+        Right Side :: Social ::
+        Styling list Elements
+    */
+    body footer.foot div.footerFlex div#social ul{
+        list-style: none;
+        text-align: center;
+        line-height: 50px;
+    }
+    /*
+        Body :: Footer :: 
+        Right Side :: Social ::
+        Content
+    */
+    body footer.foot div.footerFlex div#social ul li a{
+        text-decoration: none;
+        width: 25%;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: Footer ::
+        Right Side :: Social ::
+        Icons
+    */
+    body footer.foot div.footerFlex div#social ul li i{
+        width: 15%;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+
+
+}
+
+
+
+
+@media (min-width: 400px) and  (max-width: 546px){
+    /*
+        Body :: Styling h1 Heading
+    */
+    body{
+        background-image: linear-gradient(to left, rgb(133, 51, 51), rgb(0, 0, 0));
+    }
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: Navbar
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    /*
+        Body Background Image :: Navbar ::
+        Left side :: Content :: 
+        Logo Name and styling
+    */
+    body nav div.navbar div.logo div{
+        padding: 10px 15px 20px 15px;
+        height: 80px;
+        font-size: 60px;
+        font-style: italic;
+        font-weight: bold;
+        color: whitesmoke;
+        text-align: center;
+        border-radius: 40%;
+        background-image: linear-gradient(to left, rgb(117, 23, 23), rgb(12, 12, 12));
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Aligning content side by side
+    */
+    body nav div.navbar div.services ul{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        margin: 10px auto 20px auto;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Content :: Styling 
+    */
+    body nav div.navbar div.services ul.items li a{
+        text-decoration: none;
+        color: black;
+        margin: 0 auto;
+        padding: 5px 5px;
+        font-size: 20px;
+        text-align: center;
+        color: whitesmoke;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Content :: Hover 
+    */
+    body nav div.navbar div.services ul.items li a:hover{
+        background-color: black;
+        text-align: center;
+        color: pink;
+        font-size: 22px;
+        border-radius: 20px;
+    }
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: :: Cards ::
+                            Services Offered Section ::  
+                            Background
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 1
+    */
+    body div.cards div#card1{
+        width: 80%;
+        margin: 0 auto 40px auto;
+        height: 280px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(3deg);
+        border: 1px solid black;
+        background-image: linear-gradient(to right, rgb(7, 7, 17), rgb(54, 131, 131));
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 1 Image
+    */
+    body div.cards div#card1 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 2
+    */
+    body div.cards div#card2{
+        width: 80%;
+        margin: 0 auto 40px auto;
+        height: 280px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(-2deg);
+        border: 1px solid black;
+        background-image: linear-gradient(to right, rgb(7, 7, 17), rgb(54, 131, 131));
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 2 Image
+    */
+    body div.cards div#card2 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 3
+    */
+    body div.cards div#car3{
+        width: 80%;
+        margin: 50px auto 40px auto;
+        height: 280px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(5deg);
+        border: 1px solid black;
+        background-image: linear-gradient(to right, rgb(7, 7, 17), rgb(54, 131, 131));
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 3 Image
+    */
+    body div.cards div#car3 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card About
+    */
+    body div.cards div.cardsItem div.cardAbout{
+        text-align: center;
+        margin-top: 20px;
+    }
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                                Body :: Contact Form ::
+                                Adding contact Form :: 
+                                Background Image
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.contact{
+        background-image: url('Images&Videos/Contact.jpg');
+        width: 90%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Inputs
+    */
+    body div.contact form input{
+        background: none;
+        border: 0px;
+        font-size: 25px;
+        font-weight: bolder;
+        border-radius: 5px;
+        border-bottom: 5px solid rgb(122, 40, 7);
+        color: rgb(122, 40, 7);
+        margin-right: 10px;
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Select
+    */
+    body div.contact form select{
+        background: none;
+        border: 0px;
+        font-size: 20px;
+        font-weight: bolder;
+        border-radius: 5px;
+        border-bottom: 5px solid rgb(122, 40, 7);
+        color: rgb(122, 40, 7);
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: TextAreaa
+    */
+    body div.contact form textarea{
+        background: none;
+        border: 2px solid rgb(122, 40, 7);
+        font-size: 25px;
+        font-weight: bolder;
+        border-radius: 5px;
+        color: rgb(122, 40, 7);
+        margin-right: 10px;
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Span ::
+        for Male Female and @
+    */
+    body div.contact form span{
+        background: none;
+        border: 0px;
+        font-size: 20px;
+        margin-right: 10px;
+        font-weight: bolder;
+        color: rgb(122, 40, 7);
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Icons
+    */
+    body div.contact form i.fa{
+        color: rgb(122, 40, 7);
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Changing ::
+        PlaceHolder Color
+    */
+    ::placeholder{ /* Firefox */
+        color: rgb(110, 18, 18);
+        text-align: center;
+    }
+    :-ms-input-placeholder{ /* Internet Explorer 10-11 */
+        color: rgb(110, 18, 18);
+        text-align: center;
+    }
+    ::-ms-input-placeholder{ /* Microsoft Edge */
+        color: rgb(110, 18, 18);
+        text-align: center;
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Button
+    */
+    body div.contact form button{
+        font-size: 25px;
+        font-weight: bolder;
+        background-color: black;
+        color: whitesmoke;
+        cursor: pointer;
+        padding: 5px 10px;
+        border-radius: 10px;   
+    }
+    /*
+        Body :: Contact Form :: 
+        Styling form :: Adding Hover Effect ::
+        Button
+    */
+    body div.contact form button:hover{
+        color: pink;  
+    }
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: Footer ::
+                            Adding Background 
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body footer.foot{
+        background-image: linear-gradient(to right, rgb(95, 19, 19), rgb(90, 44, 44));
+    }
+    /*
+        Body :: Footer :: 
+        Left Side :: Address Placing
+    */
+    body footer.foot div.footerFlex div#address{
+        line-height: 25px;
+        margin: 20px auto 20px auto;
+    }
+    /*
+        Body :: Footer :: 
+        Left Side :: Address :: Content ::
+        Aligning Side by Side
+    */
+    body footer.foot div.footerFlex div#address div.area{
+        display: flex;
+        justify-content: space-around;
+    }
+    /*
+        Body :: Footer :: 
+        Left Side :: Address :: Content ::
+        Styling Address
+    */
+    body footer.foot div.footerFlex div#address div.area p{
+        margin-top: 15px;
+        margin-left: 20px;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: Footer ::
+        Right Side :: Social Placing
+    */
+    body footer.foot div.footerFlex div#social{
+        line-height: 25px;
+        margin: 20px auto 20px auto;
+    }
+    /*
+        Body :: Footer :: 
+        Right Side :: Social ::
+        Styling list Elements
+    */
+    body footer.foot div.footerFlex div#social ul{
+        list-style: none;
+        text-align: center;
+        line-height: 50px;
+    }
+    /*
+        Body :: Footer :: 
+        Right Side :: Social ::
+        Content
+    */
+    body footer.foot div.footerFlex div#social ul li a{
+        text-decoration: none;
+        width: 25%;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: Footer ::
+        Right Side :: Social ::
+        Icons
+    */
+    body footer.foot div.footerFlex div#social ul li i{
+        width: 15%;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+
+
+}
+
+
+
+
+@media (min-width: 0px) and (max-width: 400px){
+    /*
+        Body :: Styling h1 Heading
+    */
+    body{
+        background-image: linear-gradient(to left, rgb(133, 51, 51), rgb(0, 0, 0));
+    }
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: Navbar
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    /*
+        Body Background Image :: Navbar ::
+        Left side :: Content :: 
+        Logo Name and styling
+    */
+    body nav div.navbar div.logo div{
+        margin: 0 5px;
+        padding: 10px 15px 0px 15px;
+        height: 80px;
+        font-size: 50px;
+        font-style: italic;
+        font-family: cursive;
+        font-weight: bold;
+        color: whitesmoke;
+        text-align: center;
+        border-radius: 40%;
+        background-image: linear-gradient(to left, rgb(117, 23, 23), rgb(12, 12, 12));
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Aligning content side by side
+    */
+    body nav div.navbar div.services ul{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        margin: 10px auto 20px auto;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Content :: Styling 
+    */
+    body nav div.navbar div.services ul.items li a{
+        text-decoration: none;
+        color: black;
+        margin: 0 auto;
+        padding: 5px 5px;
+        font-size: 15px;
+        text-align: center;
+        color: whitesmoke;
+    }
+    /*
+        Body Background Image :: Navbar ::
+        Right side :: Content :: Hover 
+    */
+    body nav div.navbar div.services ul.items li a:hover{
+        background-color: black;
+        text-align: center;
+        color: pink;
+        font-size: 22px;
+        border-radius: 20px;
+    }
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: :: Cards ::
+                            Services Offered Section ::  
+                            Background
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 1
+    */
+    body div.cards div#card1{
+        width: 80%;
+        margin: 0 auto 40px auto;
+        height: 280px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(3deg);
+        border: 1px solid black;
+        background-image: linear-gradient(to right, rgb(7, 7, 17), rgb(54, 131, 131));
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 1 Image
+    */
+    body div.cards div#card1 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 2
+    */
+    body div.cards div#card2{
+        width: 80%;
+        margin: 0 auto 40px auto;
+        height: 280px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(-2deg);
+        border: 1px solid black;
+        background-image: linear-gradient(to right, rgb(7, 7, 17), rgb(54, 131, 131));
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 2 Image
+    */
+    body div.cards div#card2 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 3
+    */
+    body div.cards div#car3{
+        width: 80%;
+        margin: 50px auto 40px auto;
+        height: 280px;
+        color: whitesmoke;
+        box-shadow: 5px 10px 18px #afafaf;
+        transform: rotate(5deg);
+        border: 1px solid black;
+        background-image: linear-gradient(to right, rgb(7, 7, 17), rgb(54, 131, 131));
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card 3 Image
+    */
+    body div.cards div#car3 img{
+        width: 100%;
+        height: 150px;
+    }
+    /*
+        Body :: Cards ::
+        Services Offered Section ::  
+        Styling Card About
+    */
+    body div.cards div.cardsItem div.cardAbout{
+        text-align: center;
+        margin-top: 20px;
+    }
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                                Body :: Contact Form ::
+                                Adding contact Form :: 
+                                Background Image
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body div.contact{
+        background-image: url('Images&Videos/Contact.jpg');
+        width: 90%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Inputs
+    */
+    body div.contact form input{
+        background: none;
+        border: 0px;
+        font-size: 15px;
+        font-weight: bolder;
+        border-radius: 5px;
+        border-bottom: 5px solid rgb(122, 40, 7);
+        color: rgb(122, 40, 7);
+        margin-right: 10px;
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Select
+    */
+    body div.contact form select{
+        background: none;
+        border: 0px;
+        font-size: 15px;
+        font-weight: bolder;
+        border-radius: 5px;
+        border-bottom: 5px solid rgb(122, 40, 7);
+        color: rgb(122, 40, 7);
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: TextAreaa
+    */
+    body div.contact form textarea{
+        background: none;
+        border: 2px solid rgb(122, 40, 7);
+        font-size: 15px;
+        font-weight: bolder;
+        border-radius: 5px;
+        color: rgb(122, 40, 7);
+        margin-right: 10px;
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Span ::
+        for Male Female and @
+    */
+    body div.contact form span{
+        background: none;
+        border: 0px;
+        font-size: 20px;
+        margin-right: 10px;
+        font-weight: bolder;
+        color: rgb(122, 40, 7);
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Icons
+    */
+    body div.contact form i.fa{
+        color: rgb(122, 40, 7);
+    }
+    /*
+        Body :: Contact Form ::
+        Styling form :: Changing ::
+        PlaceHolder Color
+    */
+    ::placeholder{ /* Firefox */
+        color: rgb(110, 18, 18);
+        text-align: center;
+    }
+    :-ms-input-placeholder{ /* Internet Explorer 10-11 */
+        color: rgb(110, 18, 18);
+        text-align: center;
+    }
+    ::-ms-input-placeholder{ /* Microsoft Edge */
+        color: rgb(110, 18, 18);
+        text-align: center;
+    }
+    /*
+        Body :: 6th part :: 
+        Styling form :: Button
+    */
+    body div.contact form button{
+        font-size: 25px;
+        font-weight: bolder;
+        background-color: black;
+        color: whitesmoke;
+        cursor: pointer;
+        padding: 5px 10px;
+        border-radius: 10px;   
+    }
+    /*
+        Body :: Contact Form :: 
+        Styling form :: Adding Hover Effect ::
+        Button
+    */
+    body div.contact form button:hover{
+        color: pink;  
+    }
+    /*
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+                            Body :: Footer ::
+                            Adding Background 
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+        -----------------------------------------------------------------------
+    */
+    body footer.foot{
+        background-image: linear-gradient(to right, rgb(95, 19, 19), rgb(90, 44, 44));
+    }
+    /*
+        Body :: Footer :: 
+        Left Side :: Address Placing
+    */
+    body footer.foot div.footerFlex div#address{
+        line-height: 25px;
+        margin: 20px auto 20px auto;
+    }
+    /*
+        Body :: Footer :: 
+        Left Side :: Address :: Content ::
+        Aligning Side by Side
+    */
+    body footer.foot div.footerFlex div#address div.area{
+        display: flex;
+        justify-content: space-around;
+    }
+    /*
+        Body :: Footer :: 
+        Left Side :: Address :: Content ::
+        Styling Address
+    */
+    body footer.foot div.footerFlex div#address div.area p{
+        margin-top: 15px;
+        margin-left: 20px;
+        font-size: 15px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: Footer ::
+        Right Side :: Social Placing
+    */
+    body footer.foot div.footerFlex div#social{
+        line-height: 25px;
+        margin: 20px auto 20px auto;
+    }
+    /*
+        Body :: Footer :: 
+        Right Side :: Social ::
+        Styling list Elements
+    */
+    body footer.foot div.footerFlex div#social ul{
+        list-style: none;
+        text-align: center;
+        line-height: 50px;
+    }
+    /*
+        Body :: Footer :: 
+        Right Side :: Social ::
+        Content
+    */
+    body footer.foot div.footerFlex div#social ul li a{
+        text-decoration: none;
+        width: 25%;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+    /*
+        Body :: Footer ::
+        Right Side :: Social ::
+        Icons
+    */
+    body footer.foot div.footerFlex div#social ul li i{
+        width: 15%;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
