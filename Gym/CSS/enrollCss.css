@@ -1579,7 +1579,7 @@
     body div.cards div#card1{
         width: 80%;
         margin: 0 auto 40px auto;
-        height: 280px;
+        height: 300px;
         color: whitesmoke;
         box-shadow: 5px 10px 18px #afafaf;
         transform: rotate(3deg);
@@ -1603,7 +1603,7 @@
     body div.cards div#card2{
         width: 80%;
         margin: 0 auto 40px auto;
-        height: 280px;
+        height: 300px;
         color: whitesmoke;
         box-shadow: 5px 10px 18px #afafaf;
         transform: rotate(-2deg);
@@ -1627,7 +1627,7 @@
     body div.cards div#car3{
         width: 80%;
         margin: 50px auto 40px auto;
-        height: 280px;
+        height: 300px;
         color: whitesmoke;
         box-shadow: 5px 10px 18px #afafaf;
         transform: rotate(5deg);
